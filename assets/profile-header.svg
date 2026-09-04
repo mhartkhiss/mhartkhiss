@@ -72,17 +72,17 @@
       .msg-4 { animation: cycle4 24s infinite; }
 
       .dialogue-main {
-        font-family: 'Silkscreen', 'PressStart', 'Segoe UI', monospace;
-        font-size: 14px;
+        font-family: 'Silkscreen', 'Segoe UI', -apple-system, monospace;
+        font-size: 17px;
         font-weight: 700;
         fill: #c0caf5;
-        letter-spacing: 0.8px;
+        letter-spacing: 0.6px;
       }
       .dialogue-sub {
-        font-family: 'Silkscreen', 'PressStart', 'Segoe UI', monospace;
-        font-size: 11.5px;
+        font-family: 'Silkscreen', 'Segoe UI', -apple-system, monospace;
+        font-size: 13.5px;
         fill: #a9b1d6;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.4px;
       }
       .hl-cyan { fill: #7dcfff; }
       .hl-purple { fill: #bb9af7; }
@@ -105,7 +105,7 @@
 
     <!-- Clip Path for Speech Bubble (Tail Pointing Left towards Profile) -->
     <clipPath id="speechBubbleClip">
-      <path d="M 50 24 H 800 A 10 10 0 0 1 810 34 V 132 A 10 10 0 0 1 800 142 H 50 A 10 10 0 0 1 40 132 V 82 L 10 68 L 40 54 V 34 A 10 10 0 0 1 50 24 Z" />
+      <path d="M 52 20 H 800 A 10 10 0 0 1 810 30 V 136 A 10 10 0 0 1 800 146 H 52 A 10 10 0 0 1 42 136 V 86 L 8 71 L 42 56 V 30 A 10 10 0 0 1 52 20 Z" />
     </clipPath>
   </defs>
 
@@ -170,39 +170,39 @@
   </g>
 
   <!-- Speech Bubble Frame (with Pointer pointing Left towards Profile) -->
-  <path d="M 50 24 H 800 A 10 10 0 0 1 810 34 V 132 A 10 10 0 0 1 800 142 H 50 A 10 10 0 0 1 40 132 V 82 L 10 68 L 40 54 V 34 A 10 10 0 0 1 50 24 Z" fill="url(#bubbleGrad)" stroke="#7aa2f7" stroke-width="2" />
+  <path d="M 52 20 H 800 A 10 10 0 0 1 810 30 V 136 A 10 10 0 0 1 800 146 H 52 A 10 10 0 0 1 42 136 V 86 L 8 71 L 42 56 V 30 A 10 10 0 0 1 52 20 Z" fill="url(#bubbleGrad)" stroke="#7aa2f7" stroke-width="2" />
 
   <!-- Scanlines Overlay inside Bubble -->
-  <rect x="8" y="24" width="804" height="120" fill="url(#bubbleScanlines)" clip-path="url(#speechBubbleClip)" pointer-events="none" />
+  <rect x="6" y="20" width="806" height="126" fill="url(#bubbleScanlines)" clip-path="url(#speechBubbleClip)" pointer-events="none" />
 
   <!-- Inner Subtle Glow Frame -->
-  <rect x="46" y="30" width="758" height="106" rx="6" fill="none" stroke="#bb9af7" stroke-width="1" stroke-dasharray="8 6" opacity="0.35" pointer-events="none" />
+  <rect x="48" y="26" width="756" height="114" rx="6" fill="none" stroke="#bb9af7" stroke-width="1" stroke-dasharray="8 6" opacity="0.35" pointer-events="none" />
 
   <!-- Dialogue Text Messages (Centered inside Speech Bubble) -->
-  <g transform="translate(425, 76)">
+  <g transform="translate(425, 75)">
     
     <!-- Slide 1: Introduction -->
     <g class="msg-1">
       <text x="0" y="0" class="dialogue-main" text-anchor="middle">"Hi there, I'm <tspan class="hl-cyan">Mhart Khiss</tspan> (you can call me <tspan class="hl-purple">Makizz</tspan>)! 👋"</text>
-      <text x="0" y="26" class="dialogue-sub" text-anchor="middle">Certified <tspan class="hl-cyan">Vibe Coder</tspan> &#8226; Turning caffeine and beats into software.</text>
+      <text x="0" y="29" class="dialogue-sub" text-anchor="middle">Certified <tspan class="hl-cyan">Vibe Coder</tspan> &#8226; Turning caffeine and beats into software.</text>
     </g>
 
     <!-- Slide 2: Dusk & Pixel Art Passion -->
     <g class="msg-2">
       <text x="0" y="0" class="dialogue-main" text-anchor="middle">"Deeply obsessed with <tspan class="hl-pink">Dusk, Twilight</tspan> &amp; <tspan class="hl-purple">Midnight</tspan> aesthetics."</text>
-      <text x="0" y="26" class="dialogue-sub" text-anchor="middle">Passionate creator &amp; lover of all things <tspan class="hl-yellow">Pixel Art</tspan> 🕹️</text>
+      <text x="0" y="29" class="dialogue-sub" text-anchor="middle">Passionate creator &amp; lover of all things <tspan class="hl-yellow">Pixel Art</tspan> 🕹️</text>
     </g>
 
     <!-- Slide 3: Philosophy / Coding Meta -->
     <g class="msg-3">
       <text x="0" y="0" class="dialogue-main" text-anchor="middle">"Yes I code — but <tspan class="hl-cyan">vibing while coding</tspan> is the absolute meta."</text>
-      <text x="0" y="26" class="dialogue-sub" text-anchor="middle">Writing syntax without <tspan class="hl-purple">2 AM lo-fi beats</tspan> is strictly deprecated 🎧</text>
+      <text x="0" y="29" class="dialogue-sub" text-anchor="middle">Writing syntax without <tspan class="hl-purple">2 AM lo-fi beats</tspan> is strictly deprecated 🎧</text>
     </g>
 
     <!-- Slide 4: Works on My Machine -->
     <g class="msg-4">
       <text x="0" y="0" class="dialogue-main" text-anchor="middle">"Works on my machine! 🚀"</text>
-      <text x="0" y="26" class="dialogue-sub" text-anchor="middle">If it breaks on yours, that's an unresolved <tspan class="hl-pink">skill issue</tspan> ☕</text>
+      <text x="0" y="29" class="dialogue-sub" text-anchor="middle">If it breaks on yours, that's an unresolved <tspan class="hl-pink">skill issue</tspan> ☕</text>
     </g>
 
   </g>
