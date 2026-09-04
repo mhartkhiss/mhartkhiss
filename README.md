@@ -41,10 +41,9 @@
 </div>
 
 > **`VIBE CHECK`**  
-> *Why waste 100 hours aggressively grinding repetitive clicks in **TaskbarHero** when you can just politely persuade the game's runtime memory into believing you're an unstoppable god?*  
-> *Some people call it a cheat engine. I call it an **unsolicited productivity suite** and an **ergonomic favor to your mouse switches**.*
+> *Why grind 100 hours of clicks when you can politely persuade runtime memory you're a god? An ergonomic favor to your mouse switches.*
 
-- 🎯 **`MISSION BRIEF`**: Advanced memory trainer & automation companion for **TaskbarHero**. Attaches to the game process, installs custom assembly hooks within 2GB bounds, bypasses ACTk anti-cheats, unlocks all DLC heroes & pets, automates 9-item gear synthesis & chest opening, and overrides real-time stats (Attack, Move Speed, Crit, HP, Cooldowns).
+- 📖 **`ABOUT`**: High-performance automation companion and memory trainer for the idle game **TaskbarHero**. Instead of grinding hundreds of hours of manual clicking and waiting through repetitive crafting timers, players run DuskCore to automate 9-item gear synthesis, auto-open chests, unlock all DLC heroes & pets, and dynamically fine-tune combat stats (Attack, Move Speed, Crit, HP, and Cooldowns). Engineered with custom x86 assembly hooks within 2GB bounds and IL2CPP memory patching to bypass in-game ACTk anti-cheat checks seamlessly in real time.
 - 🗡️ **`CLASS / TECH`**: `Flutter Desktop` &bull; `Dart` &bull; `C# (.NET)` &bull; `IL2CPP Hooking` &bull; `x86 Assembly`
 - 💻 **`PLATFORMS`**: `[ Windows Desktop ]` &bull; `[ Web Application ]`
 - 🌐 **`PORTAL URL`**: [duskcore.makizz.studio](https://duskcore.makizz.studio)
@@ -61,8 +60,7 @@
 </div>
 
 > **`VIBE CHECK`**  
-> *Nobody likes wrestling over a sticky TV remote or huddling around a screen just to search for a song.*  
-> *MKZ Karaoke turns every party guest's smartphone into a synchronized songbook and queue controller while the big screen keeps the video rocking.*
+> *Zero fighting over sticky TV remotes—scan the QR, queue anthems straight from your phone, and sing like the neighbors don't exist.*
 
 - 📖 **`ABOUT`**: Real-time collaborative karaoke platform built to eliminate the chaos of wrestling over a remote control or crowding around a TV screen. A host launches the central session on a living room TV or laptop to handle video streaming and playback controls, while friends and party guests instantly scan the on-screen QR code from their phones to search YouTube & curated catalogs, queue up their favorite anthems, and follow the playlist live. Built with Firebase Realtime Database for instantaneous state synchronization across all connected devices and automated multi-key YouTube API rotation to guarantee non-stop playback.
 - 🗡️ **`CLASS / TECH`**: `React 19` &bull; `Vite` &bull; `Firebase Realtime Database` &bull; `Tailwind CSS` &bull; `Material UI` &bull; `Framer Motion` &bull; `YouTube Data API v3`
