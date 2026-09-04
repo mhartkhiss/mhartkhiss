@@ -600,22 +600,13 @@
     </g>
   </g>
 
-  <!-- ==================== BOTTOM HUD: GITHUB ACTIVITY (PROOF OF LIFE) ==================== -->
-  <g transform="translate(24, 454)">
-    <rect x="0" y="0" width="832" height="50" rx="5" fill="#090d1c" stroke="#1e293b" stroke-width="1.2" />
-    
-    <!-- Row 1: GitHub Activity Core Metrics -->
-    <text x="14" y="21" class="bottom-stat-title">GITHUB ACTIVITY:</text>
-    <text x="190" y="21" class="bottom-stat-txt">CONTRIBUTIONS: <tspan fill="#00f0ff">319+</tspan></text>
-    <text x="375" y="21" class="bottom-stat-txt">COMMITS: <tspan fill="#10b981">137+</tspan></text>
-    <text x="515" y="21" class="bottom-stat-txt">PULL REQUESTS: <tspan fill="#a855f7">3</tspan></text>
-    <text x="690" y="21" class="bottom-stat-txt">REPOS: <tspan fill="#f59e0b">16</tspan></text>
-
-    <!-- Row 2: Proof of Life & Status -->
-    <text x="14" y="39" class="bottom-stat-title" fill="#f59e0b">PROOF OF LIFE:</text>
-    <text x="175" y="39" class="bottom-stat-txt">STREAK: <tspan fill="#10b981">ACTIVE</tspan></text>
-    <text x="315" y="39" class="bottom-stat-txt">MEMBER SINCE: <tspan fill="#38bdf8">SEP 2023</tspan></text>
-    <text x="500" y="39" class="bottom-stat-txt">STATUS: <tspan fill="#00f0ff">AUTHENTIC COMMITS (0% VAPORWARE)</tspan></text>
+  <!-- ==================== BOTTOM HUD: GITHUB METRICS ==================== -->
+  <g transform="translate(24, 462)">
+    <rect x="0" y="0" width="832" height="32" rx="5" fill="#090d1c" stroke="#1e293b" stroke-width="1.2" />
+    <text x="104" y="20" class="bottom-stat-txt" text-anchor="middle">CONTRIBUTIONS: <tspan fill="#00f0ff">319+</tspan></text>
+    <text x="312" y="20" class="bottom-stat-txt" text-anchor="middle">COMMITS: <tspan fill="#10b981">137+</tspan></text>
+    <text x="520" y="20" class="bottom-stat-txt" text-anchor="middle">PULL REQUESTS: <tspan fill="#a855f7">3</tspan></text>
+    <text x="728" y="20" class="bottom-stat-txt" text-anchor="middle">REPOS: <tspan fill="#f59e0b">31+</tspan></text>
   </g>
 
 </svg>
