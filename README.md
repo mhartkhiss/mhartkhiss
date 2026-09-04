@@ -77,7 +77,7 @@
   </div>
 </div>
 
-> 🕹️ **`VIBE CHECK`**  
+> **`VIBE CHECK`**  
 > *Why waste 100 hours aggressively grinding repetitive clicks in **TaskbarHero** when you can just politely persuade the game's runtime memory into believing you're an unstoppable god?*  
 > *Some people call it a cheat engine. I call it an **unsolicited productivity suite** and an **ergonomic favor to your mouse switches**.*
 
