@@ -73,7 +73,7 @@
     <img src="./assets/duskcore-banner.svg?v=4" alt="DuskCore - TaskbarHero Utility Banner" width="100%" />
   </a>
   <div style="margin-top: 8px;">
-    <img src="./assets/duskcore-dialogue.svg" alt="DuskCore Player Dialogue" width="540" />
+    <img src="./assets/duskcore-dialogue.svg?v=2" alt="DuskCore Player Dialogue" width="540" />
   </div>
 </div>
 
