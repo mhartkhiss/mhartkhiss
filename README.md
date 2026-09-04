@@ -19,29 +19,22 @@
 
 ---
 
-### 🛠️ The "Tech Stack" (Things I Pretend to Understand)
+### ⚔️ Equipment Loadout (The "Tech Stack")
+
+> **`CHARACTER STATUS // LVL 99`**  
+> 🧙‍♂️ **Class**: `Full-Stack Sorcerer` &bull; 🏷️ **Player**: `Makizz` &bull; 🌌 **Realm**: `Dusk, Twilight & Midnight`  
+> 🧪 **HP**: `██████████ 100/100 (Caffeine)` &bull; ⚡ **MP**: `██████████ 999/999 (Pure Lo-Fi Vibes)`  
+> 🎧 **Equipped Aura**: `Midnight Resonance (+1000 Focus, Immune to Syntax Fatigue)`
 
 <div align="center">
 
-#### 💻 Frontend (Pixel-pushing & CSS prayer)
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,react,tailwind,vite,bootstrap" alt="Frontend stack" />
-</p>
-
-#### 📱 Mobile (Fixing RenderFlex overflows)
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio" alt="Mobile stack" />
-</p>
-
-#### ⚡ Backend & Cloud (Data goes in, prayers come out)
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=firebase,nodejs,express,php,laravel,mysql,sqlite" alt="Backend stack" />
-</p>
-
-#### 🧰 Tools & Vibe Enablers
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,powershell" alt="Tools stack" />
-</p>
+| Slot | Equipment & Lore | Equipped Tech | Buffs & Passives |
+| :---: | :--- | :---: | :--- |
+| 🗡️<br/>**MAIN HAND** | **Blade of the Reactive DOM**<br/><sub>Item Lvl: 99 &bull; **`✦ MYTHIC WEAPON ✦`**</sub> | <img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css,js,bootstrap" height="38" alt="Frontend Gear" /> | `+160 UI DPS` &bull; `+95 CSS Grid Centering`<br/>*Passive: -50% Hydration Failures* |
+| 📱<br/>**OFF HAND** | **Aegis of the Fluttering Core**<br/><sub>Item Lvl: 96 &bull; **`✦ LEGENDARY SHIELD ✦`**</sub> | <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio" height="38" alt="Mobile Gear" /> | `+185 Cross-Platform Armor`<br/>*Passive: Automatically heals 2.4px layout overflows* |
+| 🛡️<br/>**CHEST ARMOR** | **Cuirass of Non-Blocking I/O**<br/><sub>Item Lvl: 94 &bull; **`✦ EPIC BATTLEPLATE ✦`**</sub> | <img src="https://skillicons.dev/icons?i=nodejs,express,php,laravel" height="38" alt="Backend Gear" /> | `+130 Event Loop Throughput` &bull; `+80 API Armor`<br/>*Passive: Absorbs unhandled promise rejections* |
+| 🏺<br/>**SOUL RELIC** | **Tome of Persistent Realms**<br/><sub>Item Lvl: 92 &bull; **`✦ ANCIENT ARTIFACT ✦`**</sub> | <img src="https://skillicons.dev/icons?i=firebase,mysql,sqlite" height="38" alt="Database Relic" /> | `+110 Real-Time Sync` &bull; `+70 ACID Resilience`<br/>*Passive: Wards against accidental DROP TABLE queries* |
+| 🧰<br/>**UTILITY BELT** | **Satchel of the 2 AM Terminal**<br/><sub>Item Lvl: 99 &bull; **`✦ DIVINE UTILITY ✦`**</sub> | <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,powershell" height="38" alt="Tools Gear" /> | `+999 Git Commit Velocity` &bull; `+100 Hotkey Agility`<br/>*Passive: git push --force executes while asleep* |
 
 </div>
 
