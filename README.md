@@ -44,7 +44,7 @@
 > *Why waste 100 hours aggressively grinding repetitive clicks in **TaskbarHero** when you can just politely persuade the game's runtime memory into believing you're an unstoppable god?*  
 > *Some people call it a cheat engine. I call it an **unsolicited productivity suite** and an **ergonomic favor to your mouse switches**.*
 
-- 🎯 **`MISSION BRIEF`**: Advanced memory trainer & automation companion for **TaskbarHero** (`v1.01.04`). Attaches to the game process, installs custom assembly hooks within 2GB bounds, bypasses ACTk anti-cheats, unlocks all DLC heroes & pets, automates 9-item gear synthesis & chest opening, and overrides real-time stats (Attack, Move Speed, Crit, HP, Cooldowns).
+- 🎯 **`MISSION BRIEF`**: Advanced memory trainer & automation companion for **TaskbarHero**. Attaches to the game process, installs custom assembly hooks within 2GB bounds, bypasses ACTk anti-cheats, unlocks all DLC heroes & pets, automates 9-item gear synthesis & chest opening, and overrides real-time stats (Attack, Move Speed, Crit, HP, Cooldowns).
 - 🗡️ **`CLASS / TECH`**: `Flutter Desktop` &bull; `Dart` &bull; `C# (.NET)` &bull; `IL2CPP Hooking` &bull; `x86 Assembly`
 - 💻 **`PLATFORMS`**: `[ Windows Desktop ]` &bull; `[ Web Application ]`
 - 🌐 **`PORTAL URL`**: [duskcore.makizz.studio](https://duskcore.makizz.studio)
@@ -56,7 +56,6 @@
 
 | Project | What it actually is | Vibe Check |
 | :--- | :--- | :--- |
-| <img src="./assets/duskcore-logo.svg" width="18" height="18" style="vertical-align: middle;" /> **DuskCore** 🔒 | High-performance memory trainer and automation utility for TaskbarHero. | *Cheating? No, we call it unsolicited memory optimization.* |
 | **SpeakForge** | Capstone voice & speech synthesis platform with real-time server intelligence. | *It speaks, it listens, and honestly communicates better than most groupmates.* |
 | **HealthConnect** | Full-scale healthcare appointment scheduling platform with real-time doctor rosters. | *Cures everything except the bugs I introduced at 3:15 AM.* |
 | **MKZ Music & Karaoke** | Cross-platform audio player and synchronized karaoke suite. | *Built specifically so I can legally vibe and sing while debugging.* |
