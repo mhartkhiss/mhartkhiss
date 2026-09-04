@@ -52,12 +52,36 @@
 
 <br/>
 
+#### 🎤 MKZ Karaoke — Real-Time Party Songbook & Player
+
+<div align="center">
+  <a href="https://github.com/mhartkhiss/MKZ-karaoke" target="_blank">
+    <img src="./assets/mkz-karaoke-banner.svg?v=1" alt="MKZ Karaoke - Real-Time Party Songbook Banner" width="100%" />
+  </a>
+  <div style="margin-top: 8px;">
+    <img src="./assets/mkz-karaoke-dialogue.svg?v=1" alt="MKZ Karaoke Room Dialogue" width="540" />
+  </div>
+</div>
+
+> **`VIBE CHECK`**  
+> *Nobody likes wrestling over a sticky TV remote or huddling around a screen just to search for a song.*  
+> *MKZ Karaoke turns every party guest's smartphone into a synchronized songbook and queue controller while the big screen keeps the video rocking.*
+
+- 🎯 **`MISSION BRIEF`**: Modern, synchronized real-time karaoke web application. Hosts launch a central video player screen with queue orchestration, while guests instantly join via 5-character alphanumeric room codes or direct QR code scans to search YouTube & custom catalogs, submit tracks, and manage the room playlist in real-time. Includes an admin suite for session supervision, custom song curation, and automated multi-key YouTube API rotation.
+- 🗡️ **`CLASS / TECH`**: `React 19` &bull; `Vite` &bull; `Firebase Realtime Database` &bull; `Tailwind CSS` &bull; `Material UI` &bull; `Framer Motion` &bull; `YouTube Data API v3`
+- 💻 **`PLATFORMS`**: `[ Web Application (Host Screen) ]` &bull; `[ Mobile Web (Guest Songbook) ]`
+- 🌐 **`PORTAL URL`**: [github.com/mhartkhiss/MKZ-karaoke](https://github.com/mhartkhiss/MKZ-karaoke)
+- 📦 **`SOURCE CODE`**: [`mhartkhiss/MKZ-karaoke`](https://github.com/mhartkhiss/MKZ-karaoke) 🌐 *(Public Repository)*
+
+<br/>
+
 #### 🚀 Other Notable Projects
 
 | Project | What it actually is | Vibe Check |
 | :--- | :--- | :--- |
 | **SpeakForge** | Capstone voice & speech synthesis platform with real-time server intelligence. | *It speaks, it listens, and honestly communicates better than most groupmates.* |
 | **HealthConnect** | Full-scale healthcare appointment scheduling platform with real-time doctor rosters. | *Cures everything except the bugs I introduced at 3:15 AM.* |
-| **MKZ Music & Karaoke** | Cross-platform audio player and synchronized karaoke suite. | *Built specifically so I can legally vibe and sing while debugging.* |
+| **MKZ Music** | Cross-platform desktop audio player and offline music management hub. | *Built specifically so I can legally vibe and listen to high-fidelity audio while debugging.* |
 | **Equicon & ARC** | Administrative management & student requirements tracking systems. | *Automating deadline tracking so I can procrastinate with statistical precision.* |
 | **RouteSage & Longride GPS** | Route planning and telemetry tracking app for rides and navigation. | *Finds the quickest escape route when a merge conflict appears in production.* |
+

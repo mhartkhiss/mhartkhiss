@@ -1,0 +1,299 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%">
+  <defs>
+    <style>
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes floatMic {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { filter: drop-shadow(0 0 4px #38bdf8); }
+        50% { filter: drop-shadow(0 0 12px #818cf8); }
+      }
+      @keyframes soundPulse {
+        0% { r: 32px; opacity: 0.6; }
+        50% { r: 52px; opacity: 0.1; }
+        100% { r: 32px; opacity: 0.6; }
+      }
+
+      .mkz-title {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Outfit', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        letter-spacing: 2px;
+        animation: pulseGlow 3s infinite alternate;
+      }
+      .mkz-sub {
+        font-family: 'Courier New', monospace;
+        font-weight: 700;
+        font-size: 10px;
+        fill: #38bdf8;
+        letter-spacing: 1.5px;
+      }
+      .mkz-text {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        fill: #e3e3e3;
+        letter-spacing: 1px;
+      }
+      .mkz-quote {
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        font-style: italic;
+        font-size: 11px;
+        fill: #94a3b8;
+        letter-spacing: 0.5px;
+      }
+      .mkz-tag {
+        font-family: 'Courier New', monospace;
+        font-size: 10.5px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+      }
+      .blink-cursor {
+        animation: blink 1s infinite;
+      }
+      .mic-anim {
+        animation: floatMic 3s ease-in-out infinite;
+      }
+    </style>
+
+    <!-- Scanline / Audio Grid Pattern -->
+    <pattern id="audioGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="20" x2="20" y2="20" stroke="#1b3c53" stroke-width="0.75" opacity="0.35" />
+      <line x1="20" y1="0" x2="20" y2="20" stroke="#1b3c53" stroke-width="0.75" opacity="0.35" />
+    </pattern>
+
+    <!-- Deep Ocean Theme Background Gradient -->
+    <linearGradient id="oceanBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e15" />
+      <stop offset="50%" stop-color="#0f1d2a" />
+      <stop offset="100%" stop-color="#142637" />
+    </linearGradient>
+
+    <!-- Brand Cyan-Sky-Indigo Gradient with Stop Animation -->
+    <linearGradient id="mkzCyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8; #60A5FA; #818CF8; #38BDF8" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#60A5FA">
+        <animate attributeName="stop-color" values="#60A5FA; #818CF8; #38BDF8; #60A5FA" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#E3E3E3">
+        <animate attributeName="stop-color" values="#E3E3E3; #38BDF8; #60A5FA; #E3E3E3" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Sync Bar Gradient -->
+    <linearGradient id="syncGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+
+    <!-- Metallic Mic Gradient -->
+    <linearGradient id="micMetallic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#234C6A" />
+      <stop offset="100%" stop-color="#1B3C53" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur1" />
+      <feGaussianBlur stdDeviation="1.5" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Musical Note Definition -->
+    <g id="musicNote">
+      <path d="M6 15 C6 17.5 4.5 19.5 2.5 19.5 C0.8 19.5 0 18.2 0 16.5 C0 14.5 1.5 12.5 3.5 12.5 C4.5 12.5 5.5 13 6 14 V4 L14 1.5 V10.5 C14 13 12.5 15 10.5 15 C8.8 15 8 13.7 8 12 C8 10 9.5 8 11.5 8 C12.5 8 13.5 8.5 14 9.5 V4 L6 6.5 Z" />
+    </g>
+  </defs>
+
+  <!-- Outer Border Frame -->
+  <rect x="2" y="2" width="796" height="236" rx="8" fill="url(#oceanBg)" stroke="#1b3c53" stroke-width="4" />
+  
+  <!-- Inset Border -->
+  <rect x="8" y="8" width="784" height="224" rx="6" fill="none" stroke="#234c6a" stroke-width="2" />
+  <rect x="12" y="12" width="776" height="216" rx="4" fill="none" stroke="#456882" stroke-width="1" stroke-dasharray="6 3" />
+
+  <!-- Corner Neon Accents -->
+  <rect x="8" y="8" width="10" height="10" fill="#38BDF8" />
+  <rect x="782" y="8" width="10" height="10" fill="#38BDF8" />
+  <rect x="8" y="222" width="10" height="10" fill="#38BDF8" />
+  <rect x="782" y="222" width="10" height="10" fill="#38BDF8" />
+
+  <!-- Audio Grid Texture Overlay -->
+  <rect x="12" y="12" width="776" height="216" fill="url(#audioGrid)" pointer-events="none" />
+
+  <!-- Floating Ambient Notes in Background -->
+  <g opacity="0.65" filter="url(#neonGlow)">
+    <use href="#musicNote" x="24" y="130" fill="#38BDF8" transform="scale(0.8)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -6,-30; -12,-65" dur="3.8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0; 0.9; 0" dur="3.8s" repeatCount="indefinite" />
+    </use>
+    <use href="#musicNote" x="98" y="140" fill="#60A5FA" transform="scale(0.7)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 8,-35; 16,-70" dur="4.4s" repeatCount="indefinite" begin="1.2s" />
+      <animate attributeName="opacity" values="0; 0.85; 0" dur="4.4s" repeatCount="indefinite" begin="1.2s" />
+    </use>
+    <use href="#musicNote" x="735" y="85" fill="#818CF8" transform="scale(0.85)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -8,-30; -14,-60" dur="4.1s" repeatCount="indefinite" begin="0.8s" />
+      <animate attributeName="opacity" values="0; 0.8; 0" dur="4.1s" repeatCount="indefinite" begin="0.8s" />
+    </use>
+  </g>
+
+  <!-- Left Side: Stylized Animated Studio Microphone & Soundwaves -->
+  <g transform="translate(32, 22)">
+    <!-- Pulsing Soundwave Auras -->
+    <g transform="translate(42, 60)" filter="url(#neonGlow)">
+      <circle r="36" fill="none" stroke="#38BDF8" stroke-width="2" opacity="0.4">
+        <animate attributeName="r" values="30; 52; 30" dur="2.8s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.6; 0.05; 0.6" dur="2.8s" repeatCount="indefinite" />
+      </circle>
+      <circle r="26" fill="none" stroke="#60A5FA" stroke-width="2.5" opacity="0.6">
+        <animate attributeName="r" values="22; 40; 22" dur="2.2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.75; 0.15; 0.75" dur="2.2s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Floating Mic Group -->
+    <g class="mic-anim" filter="url(#softShadow)">
+      <!-- Mic Capsule Grill -->
+      <rect x="28" y="24" width="28" height="42" rx="14" fill="url(#mkzCyanGrad)" filter="url(#neonGlow)" />
+      <!-- Mesh Texture -->
+      <path d="M28 38 H56 M28 48 H56 M42 24 V66" stroke="#1B3C53" stroke-width="1.8" opacity="0.75" />
+      
+      <!-- Metallic Collar Ring -->
+      <rect x="25" y="63" width="34" height="6" rx="3" fill="#E3E3E3" />
+
+      <!-- Mic Handle -->
+      <path d="M35 69 L32 100 C32 104 36 108 42 108 C48 108 52 104 52 100 L49 69 Z" fill="url(#micMetallic)" />
+
+      <!-- U-Shaped Stand Bracket -->
+      <path d="M19 50 C19 82 65 82 65 50" fill="none" stroke="#38BDF8" stroke-width="4.5" stroke-linecap="round" filter="url(#neonGlow)" />
+      <!-- Stand Base Pole & Foot -->
+      <path d="M42 74 V120 M28 120 H56" fill="none" stroke="#38BDF8" stroke-width="4.5" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- Title & Status Header -->
+  <g transform="translate(126, 44)">
+    <text x="0" y="0" class="mkz-title" fill="url(#mkzCyanGrad)">MKZ KARAOKE</text>
+    <text x="212" y="-3" class="mkz-sub">[ REAL-TIME PARTY SUITE ]</text>
+  </g>
+
+  <!-- Live Status Badge (Top Right) -->
+  <g transform="translate(625, 27)">
+    <rect x="0" y="0" width="145" height="24" rx="4" fill="#0d1b28" stroke="#38BDF8" stroke-width="1.5" />
+    <circle cx="15" cy="12" r="4.5" fill="#38BDF8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite" />
+    </circle>
+    <text x="78" y="16" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#38BDF8" text-anchor="middle">ROOMS: ACTIVE</text>
+  </g>
+
+  <!-- Subtitle Line -->
+  <text x="126" y="74" class="mkz-text">MULTI-DEVICE REAL-TIME QUEUE &amp; YOUTUBE STREAMING PLAYER</text>
+
+  <!-- Vibe Quote -->
+  <text x="126" y="98" class="mkz-quote">"NO MORE PASSING A STICKY REMOTE — SCAN QR &amp; QUEUE ANTHEMS RIGHT FROM YOUR PHONE"</text>
+
+  <!-- Status / Progress Bar (Firebase Realtime Sync) -->
+  <g transform="translate(126, 116)">
+    <text x="0" y="12" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#38BDF8">RTDB STATE SYNC</text>
+    <rect x="135" y="2" width="220" height="13" rx="3" fill="#080e15" stroke="#234c6a" stroke-width="1" />
+    <rect x="137" y="4" width="216" height="9" rx="2" fill="url(#syncGrad)">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite" />
+    </rect>
+    <text x="365" y="12" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#818CF8">100% REAL-TIME</text>
+  </g>
+
+  <!-- Equalizer Audio Visualizer Bars (Next to sync bar) -->
+  <g transform="translate(560, 116)" filter="url(#neonGlow)">
+    <rect x="0" y="0" width="5" height="15" rx="2.5" fill="#38BDF8">
+      <animate attributeName="height" values="5;19;9;17;5" dur="1.2s" repeatCount="indefinite" />
+    </rect>
+    <rect x="9" y="0" width="5" height="19" rx="2.5" fill="#60A5FA">
+      <animate attributeName="height" values="17;7;20;10;17" dur="1.4s" repeatCount="indefinite" />
+    </rect>
+    <rect x="18" y="0" width="5" height="12" rx="2.5" fill="#818CF8">
+      <animate attributeName="height" values="10;20;7;18;10" dur="1.1s" repeatCount="indefinite" />
+    </rect>
+    <rect x="27" y="0" width="5" height="18" rx="2.5" fill="#38BDF8">
+      <animate attributeName="height" values="18;10;16;8;18" dur="1.5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="36" y="0" width="5" height="14" rx="2.5" fill="#60A5FA">
+      <animate attributeName="height" values="8;17;10;20;8" dur="1.3s" repeatCount="indefinite" />
+    </rect>
+    <rect x="45" y="0" width="5" height="10" rx="2.5" fill="#818CF8">
+      <animate attributeName="height" values="12;19;8;16;12" dur="1.6s" repeatCount="indefinite" />
+    </rect>
+    <rect x="54" y="0" width="5" height="16" rx="2.5" fill="#38BDF8">
+      <animate attributeName="height" values="16;6;18;10;16" dur="1.25s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Tech Stack Pills Row -->
+  <g transform="translate(126, 145)">
+    <!-- Tag 1: React 19 + Vite -->
+    <rect x="0" y="0" width="135" height="24" rx="4" fill="#0d1b28" stroke="#38BDF8" stroke-width="1.5" />
+    <text x="67" y="16" class="mkz-tag" fill="#38BDF8" text-anchor="middle">&lt;REACT 19 + VITE&gt;</text>
+
+    <!-- Tag 2: Firebase RTDB -->
+    <rect x="145" y="0" width="130" height="24" rx="4" fill="#0d1b28" stroke="#60A5FA" stroke-width="1.5" />
+    <text x="210" y="16" class="mkz-tag" fill="#60A5FA" text-anchor="middle">&lt;FIREBASE RTDB&gt;</text>
+
+    <!-- Tag 3: YouTube API v3 -->
+    <rect x="285" y="0" width="140" height="24" rx="4" fill="#0d1b28" stroke="#818CF8" stroke-width="1.5" />
+    <text x="355" y="16" class="mkz-tag" fill="#818CF8" text-anchor="middle">&lt;YOUTUBE DATA V3&gt;</text>
+
+    <!-- Tag 4: Tailwind & MUI -->
+    <rect x="435" y="0" width="130" height="24" rx="4" fill="#0d1b28" stroke="#e3e3e3" stroke-width="1.5" />
+    <text x="500" y="16" class="mkz-tag" fill="#e3e3e3" text-anchor="middle">&lt;TAILWIND + MUI&gt;</text>
+  </g>
+
+  <!-- Bottom Interactive CTA Bar -->
+  <g transform="translate(25, 186)">
+    <rect x="0" y="0" width="750" height="34" rx="4" fill="#0c1724" stroke="#38BDF8" stroke-width="1.5" />
+    
+    <!-- Mini Equalizers on Left & Right inside CTA -->
+    <g transform="translate(24, 9)" filter="url(#neonGlow)">
+      <rect x="0" y="0" width="4" height="16" rx="2" fill="#38BDF8">
+        <animate attributeName="height" values="6;16;8;14;6" dur="1.1s" repeatCount="indefinite" />
+      </rect>
+      <rect x="7" y="0" width="4" height="16" rx="2" fill="#60A5FA">
+        <animate attributeName="height" values="14;6;16;9;14" dur="1.3s" repeatCount="indefinite" />
+      </rect>
+      <rect x="14" y="0" width="4" height="16" rx="2" fill="#818CF8">
+        <animate attributeName="height" values="8;16;6;14;8" dur="1.2s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- CTA Center Link -->
+    <text x="375" y="22" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#38BDF8" text-anchor="middle">&gt;&gt; LAUNCH SESSION: github.com/mhartkhiss/MKZ-karaoke &lt;&lt;</text>
+    <rect x="682" y="11" width="8" height="12" fill="#38BDF8" class="blink-cursor" />
+
+    <g transform="translate(712, 9)" filter="url(#neonGlow)">
+      <rect x="0" y="0" width="4" height="16" rx="2" fill="#818CF8">
+        <animate attributeName="height" values="12;6;15;8;12" dur="1.2s" repeatCount="indefinite" />
+      </rect>
+      <rect x="7" y="0" width="4" height="16" rx="2" fill="#60A5FA">
+        <animate attributeName="height" values="7;15;9;16;7" dur="1.4s" repeatCount="indefinite" />
+      </rect>
+      <rect x="14" y="0" width="4" height="16" rx="2" fill="#38BDF8">
+        <animate attributeName="height" values="15;8;14;6;15" dur="1.1s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>
