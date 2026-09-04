@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Dusk & Midnight Hero Header -->
-  <img src="./assets/profile-header.svg?v=7" alt="Mhart Khiss (Makizz) - Certified Vibe Coder" width="100%" />
+  <img src="./assets/profile-header.svg?v=8" alt="Mhart Khiss (Makizz) - Certified Vibe Coder" width="100%" />
 
   <p align="center">
     🎧 <strong>Certified Vibe Coder</strong><br/>
