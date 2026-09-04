@@ -64,11 +64,11 @@
 
 ---
 
-### 👾 <img src="./assets/duskcore-logo.svg" width="26" height="26" style="vertical-align: middle;" /> [QUEST LOG // DUSKCORE]
+### 🕹️ DuskCore — TaskbarHero Utility
 
 <div align="center">
   <a href="https://duskcore.makizz.studio" target="_blank">
-    <img src="./assets/duskcore-banner.svg" alt="DuskCore - TaskbarHero Utility Banner" width="100%" />
+    <img src="./assets/duskcore-banner.svg?v=2" alt="DuskCore - TaskbarHero Utility Banner" width="100%" />
   </a>
 </div>
 
