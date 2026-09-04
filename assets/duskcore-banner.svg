@@ -126,8 +126,8 @@
   <!-- Scanlines Overlay -->
   <rect x="8" y="8" width="784" height="224" fill="url(#scanlines)" pointer-events="none" />
 
-  <!-- DuskCore Official Logo (Clean, borderless, with rotating orbit ring) -->
-  <g class="sprite-anim" transform="translate(26, 24)">
+  <!-- DuskCore Official Logo (Positioned closely near DUSKCORE) -->
+  <g class="sprite-anim" transform="translate(42, 22)">
     <!-- DuskCore Scaled Vector (74x74) -->
     <g transform="translate(0, 0) scale(0.74)">
       <!-- Background Orbit Ring with continuous rotation -->
@@ -146,8 +146,8 @@
   </g>
 
   <!-- Title & Status Header -->
-  <text x="115" y="52" class="pixel-title">DUSKCORE</text>
-  <text x="275" y="48" class="pixel-sub">[ TASKBARHERO UTILITY ]</text>
+  <text x="122" y="52" class="pixel-title">DUSKCORE</text>
+  <text x="315" y="48" class="pixel-sub">[ TASKBARHERO UTILITY ]</text>
 
   <!-- Retro Level Badge -->
   <g transform="translate(640, 34)">
@@ -156,13 +156,13 @@
   </g>
 
   <!-- Subtitle Line -->
-  <text x="115" y="78" class="pixel-text">HIGH-PERFORMANCE MEMORY TRAINER &amp; AUTOMATION ENGINE</text>
+  <text x="122" y="78" class="pixel-text">HIGH-PERFORMANCE MEMORY TRAINER &amp; AUTOMATION ENGINE</text>
 
   <!-- Retro Sarcastic Quote -->
-  <text x="115" y="102" class="pixel-quote">"WHY GRIND 100 HOURS WHEN YOU CAN JUST REWIRE THE GAME'S RUNTIME?"</text>
+  <text x="122" y="102" class="pixel-quote">"WHY GRIND 100 HOURS WHEN YOU CAN JUST REWIRE THE GAME'S RUNTIME?"</text>
 
   <!-- Retro Progress / Status Bar (Health & Memory Optimization) -->
-  <g transform="translate(115, 118)">
+  <g transform="translate(122, 118)">
     <text x="0" y="12" font-family="'PressStart', monospace" font-size="8" fill="#e0af68">ACTk BYPASS</text>
     <rect x="105" y="2" width="220" height="13" fill="#0d0e17" stroke="#414868" stroke-width="1" />
     <rect x="107" y="4" width="216" height="9" fill="url(#hpGrad)" />
@@ -170,7 +170,7 @@
   </g>
 
   <!-- Pixel Tags Row -->
-  <g transform="translate(115, 146)">
+  <g transform="translate(122, 146)">
     <!-- Tag 1: Flutter Desktop -->
     <rect x="0" y="0" width="140" height="24" fill="#161622" stroke="#38bdf8" stroke-width="1.5" />
     <text x="70" y="16" class="pixel-tag" fill="#38bdf8" text-anchor="middle">&lt;FLUTTER DESKTOP&gt;</text>
