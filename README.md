@@ -10,9 +10,6 @@
 
   <!-- Quick Social Badges -->
   <p align="center">
-    <a href="https://github.com/mhartkhiss">
-      <img src="https://img.shields.io/badge/GitHub-mhartkhiss-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-    </a>
     <a href="https://www.linkedin.com/in/mhart-khiss-degollacion-01637837a/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
