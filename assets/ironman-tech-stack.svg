@@ -56,56 +56,56 @@
       /* Typography */
       .stark-brand {
         font-family: 'PressStart', 'Courier New', monospace;
-        font-size: 10px;
+        font-size: 11.5px;
         fill: #00f0ff;
-        letter-spacing: 1px;
+        letter-spacing: 0.8px;
       }
       .stark-sub {
         font-family: 'Silkscreen', 'Segoe UI', monospace;
-        font-size: 10px;
+        font-size: 11px;
         fill: #94a3b8;
         letter-spacing: 0.8px;
       }
       .stark-status {
         font-family: 'PressStart', 'Courier New', monospace;
-        font-size: 8px;
+        font-size: 9.5px;
         fill: #10b981;
         letter-spacing: 0.5px;
       }
       .mod-num {
         font-family: 'PressStart', 'Courier New', monospace;
-        font-size: 8px;
+        font-size: 10px;
         font-weight: bold;
         letter-spacing: 0.8px;
       }
       .mod-title {
         font-family: 'PressStart', 'Courier New', monospace;
-        font-size: 9.5px;
+        font-size: 12px;
         font-weight: bold;
         fill: #ffffff;
         letter-spacing: 0.5px;
       }
       .mod-desc {
         font-family: 'Silkscreen', 'Segoe UI', monospace;
-        font-size: 10px;
-        fill: #64748b;
+        font-size: 11px;
+        fill: #94a3b8;
         letter-spacing: 0.3px;
       }
       .badge-txt {
         font-family: 'Silkscreen', 'Segoe UI', monospace;
-        font-size: 10px;
+        font-size: 11.5px;
         fill: #e2e8f0;
         letter-spacing: 0.3px;
       }
       .bottom-stat-title {
         font-family: 'PressStart', 'Courier New', monospace;
-        font-size: 8.5px;
+        font-size: 10px;
         fill: #00f0ff;
         letter-spacing: 1px;
       }
       .bottom-stat-txt {
         font-family: 'Silkscreen', 'Segoe UI', monospace;
-        font-size: 10.5px;
+        font-size: 12px;
         fill: #94a3b8;
         letter-spacing: 0.5px;
       }
@@ -158,11 +158,11 @@
     <text x="14" y="25" class="stark-brand">VIBE CODING LIKE STARK <tspan fill="#f59e0b">// MARK MKZ TECH STACK</tspan></text>
     
     <!-- Status Pill Right -->
-    <g transform="translate(580, 10)">
-      <rect x="0" y="0" width="210" height="20" rx="4" fill="#07181f" stroke="#00f0ff" stroke-width="1" />
-      <circle cx="12" cy="10" r="3" fill="#10b981" />
-      <circle cx="12" cy="10" r="1.5" fill="#ffffff" />
-      <text x="24" y="14" class="stark-status">SYSTEMS: 100% ONLINE</text>
+    <g transform="translate(585, 9)">
+      <rect x="0" y="0" width="205" height="22" rx="4" fill="#07181f" stroke="#00f0ff" stroke-width="1" />
+      <circle cx="12" cy="11" r="3" fill="#10b981" />
+      <circle cx="12" cy="11" r="1.5" fill="#ffffff" />
+      <text x="24" y="15" class="stark-status">SYSTEMS: 100% ONLINE</text>
     </g>
   </g>
 
@@ -349,27 +349,27 @@
     <rect x="0" y="0" width="280" height="22" rx="5" fill="#0a1a2b" />
     <text x="12" y="15" class="mod-num" fill="#38bdf8">SYS 02 <tspan fill="#64748b">|</tspan> MOBILE ECOSYSTEM</text>
     <text x="12" y="38" class="mod-title">CROSS-PLATFORM APPS</text>
-    <text x="12" y="52" class="mod-desc">Adaptive Mobile Architecture &amp; Native Engine</text>
+    <text x="12" y="52" class="mod-desc">Cross-Platform Apps &amp; Native Engine</text>
 
     <!-- Tech Badges -->
     <g transform="translate(12, 62)">
       <!-- Flutter -->
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="76" height="20" rx="3" fill="#0c1f33" stroke="#38bdf8" stroke-width="0.8" />
+        <rect x="0" y="0" width="70" height="20" rx="3" fill="#0c1f33" stroke="#38bdf8" stroke-width="0.8" />
         <!-- Flutter Chevron Icon -->
         <polygon points="12,5 7,10 10,13 15,8" fill="#38bdf8" />
         <polygon points="10,13 7,16 12,16 15,13" fill="#0284c7" />
         <text x="20" y="14" class="badge-txt">Flutter</text>
       </g>
       <!-- Dart -->
-      <g transform="translate(82, 0)">
-        <rect x="0" y="0" width="60" height="20" rx="3" fill="#082026" stroke="#00f0ff" stroke-width="0.8" />
+      <g transform="translate(76, 0)">
+        <rect x="0" y="0" width="56" height="20" rx="3" fill="#082026" stroke="#00f0ff" stroke-width="0.8" />
         <polygon points="8,5 14,8 14,14 8,15" fill="#00f0ff" />
         <text x="19" y="14" class="badge-txt">Dart</text>
       </g>
       <!-- Android Studio -->
-      <g transform="translate(148, 0)">
-        <rect x="0" y="0" width="104" height="20" rx="3" fill="#0d2417" stroke="#4ade80" stroke-width="0.8" />
+      <g transform="translate(138, 0)">
+        <rect x="0" y="0" width="118" height="20" rx="3" fill="#0d2417" stroke="#4ade80" stroke-width="0.8" />
         <circle cx="10" cy="10" r="4" fill="#22c55e" />
         <circle cx="8.5" cy="9" r="0.8" fill="#ffffff" />
         <circle cx="11.5" cy="9" r="0.8" fill="#ffffff" />
@@ -384,27 +384,27 @@
     <rect x="0" y="0" width="280" height="22" rx="5" fill="#1b102e" />
     <text x="12" y="15" class="mod-num" fill="#a855f7">SYS 03 <tspan fill="#64748b">|</tspan> UI STYLING &amp; DESIGN</text>
     <text x="12" y="38" class="mod-title">SYSTEMS &amp; PROTOTYPES</text>
-    <text x="12" y="52" class="mod-desc">Utility-First CSS, Design Specs &amp; Vector Art</text>
+    <text x="12" y="52" class="mod-desc">Utility CSS, Design Specs &amp; Vectors</text>
 
     <!-- Tech Badges -->
     <g transform="translate(12, 62)">
       <!-- Tailwind CSS -->
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="94" height="20" rx="3" fill="#0c1f2e" stroke="#00f0ff" stroke-width="0.8" />
+        <rect x="0" y="0" width="100" height="20" rx="3" fill="#0c1f2e" stroke="#00f0ff" stroke-width="0.8" />
         <!-- Tailwind Waves -->
         <path d="M 6 11 C 7 8, 9 8, 10 10 C 11 12, 13 12, 14 10" fill="none" stroke="#00f0ff" stroke-width="1.2" />
         <path d="M 10 13 C 11 11, 13 11, 14 12 C 15 14, 16 14, 17 12" fill="none" stroke="#00f0ff" stroke-width="1.2" />
         <text x="21" y="14" class="badge-txt">Tailwind CSS</text>
       </g>
       <!-- Bootstrap -->
-      <g transform="translate(100, 0)">
+      <g transform="translate(106, 0)">
         <rect x="0" y="0" width="84" height="20" rx="3" fill="#1e102e" stroke="#c084fc" stroke-width="0.8" />
         <rect x="4" y="4" width="11" height="12" rx="2" fill="#7c3aed" />
         <text x="7" y="13" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="bold" fill="#ffffff">B</text>
         <text x="19" y="14" class="badge-txt">Bootstrap</text>
       </g>
       <!-- Figma -->
-      <g transform="translate(190, 0)">
+      <g transform="translate(196, 0)">
         <rect x="0" y="0" width="62" height="20" rx="3" fill="#24141e" stroke="#f43f5e" stroke-width="0.8" />
         <circle cx="8" cy="8" r="2" fill="#f43f5e" />
         <circle cx="12" cy="8" r="2" fill="#38bdf8" />
@@ -494,26 +494,26 @@
     <rect x="0" y="0" width="280" height="22" rx="5" fill="#260f18" />
     <text x="12" y="15" class="mod-num" fill="#f43f5e">SYS 06 <tspan fill="#64748b">|</tspan> DEV ENVIRONMENT</text>
     <text x="12" y="38" class="mod-title">TOOLS &amp; AUTOMATION</text>
-    <text x="12" y="52" class="mod-desc">Version Control, Terminal Automation &amp; Testing</text>
+    <text x="12" y="52" class="mod-desc">Version Control, CLI &amp; API Automation</text>
 
     <!-- Tech Badges -->
     <g transform="translate(12, 62)">
       <!-- Git & GitHub -->
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="94" height="20" rx="3" fill="#291114" stroke="#f97316" stroke-width="0.8" />
+        <rect x="0" y="0" width="100" height="20" rx="3" fill="#291114" stroke="#f97316" stroke-width="0.8" />
         <!-- Git Branch Diamond -->
         <rect x="8" y="6" width="6" height="6" transform="rotate(45 11 9)" fill="#ea580c" />
         <text x="19" y="14" class="badge-txt">Git &amp; GitHub</text>
       </g>
       <!-- VS Code -->
-      <g transform="translate(100, 0)">
-        <rect x="0" y="0" width="76" height="20" rx="3" fill="#0d1b2a" stroke="#00f0ff" stroke-width="0.8" />
+      <g transform="translate(106, 0)">
+        <rect x="0" y="0" width="74" height="20" rx="3" fill="#0d1b2a" stroke="#00f0ff" stroke-width="0.8" />
         <polygon points="6,10 10,7 13,8 10,13" fill="#00f0ff" />
         <text x="18" y="14" class="badge-txt">VS Code</text>
       </g>
       <!-- Postman -->
-      <g transform="translate(182, 0)">
-        <rect x="0" y="0" width="76" height="20" rx="3" fill="#26160d" stroke="#f97316" stroke-width="0.8" />
+      <g transform="translate(186, 0)">
+        <rect x="0" y="0" width="74" height="20" rx="3" fill="#26160d" stroke="#f97316" stroke-width="0.8" />
         <circle cx="9" cy="10" r="4" fill="#f97316" />
         <text x="17" y="14" class="badge-txt">Postman</text>
       </g>
@@ -525,14 +525,14 @@
     <rect x="0" y="0" width="802" height="48" rx="5" fill="#090d1c" stroke="#1e293b" stroke-width="1.2" />
     
     <!-- Row 1: System Telemetry -->
-    <text x="14" y="19" class="bottom-stat-title">SYSTEM TELEMETRY:</text>
-    <text x="175" y="19" class="bottom-stat-txt">CORE: <tspan fill="#00f0ff">SYNCHRONIZED</tspan></text>
-    <text x="325" y="19" class="bottom-stat-txt">DIAGNOSTICS: <tspan fill="#10b981">OPTIMAL (0 ERRORS)</tspan></text>
-    <text x="545" y="19" class="bottom-stat-txt">PROTOCOL: <tspan fill="#f59e0b">MAKIZZ MARK-VII</tspan></text>
+    <text x="14" y="20" class="bottom-stat-title">SYSTEM TELEMETRY:</text>
+    <text x="195" y="20" class="bottom-stat-txt">CORE: <tspan fill="#00f0ff">SYNCHRONIZED</tspan></text>
+    <text x="360" y="20" class="bottom-stat-txt">DIAGNOSTICS: <tspan fill="#10b981">OPTIMAL (0 ERRORS)</tspan></text>
+    <text x="590" y="20" class="bottom-stat-txt">PROTOCOL: <tspan fill="#f59e0b">MAKIZZ MARK-VII</tspan></text>
 
     <!-- Row 2: Status Text -->
-    <text x="14" y="37" class="bottom-stat-title" fill="#f59e0b">MODULE STATUS:</text>
-    <text x="155" y="37" class="bottom-stat-txt" fill="#94a3b8">Cross-platform mobile, responsive web &amp; cloud server architecture fully deployed.</text>
+    <text x="14" y="38" class="bottom-stat-title" fill="#f59e0b">MODULE STATUS:</text>
+    <text x="165" y="38" class="bottom-stat-txt" fill="#94a3b8">Cross-platform mobile, responsive web &amp; cloud server architecture fully deployed.</text>
   </g>
 
 </svg>
