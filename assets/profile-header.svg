@@ -199,7 +199,7 @@
     <!-- Slide 1: Introduction -->
     <g class="msg-1">
       <text x="0" y="0" class="dialogue-main" text-anchor="middle">"Hi there, I'm <tspan class="hl-cyan">Mhart Khiss</tspan> (you can call me <tspan class="hl-purple">Makizz</tspan>)! 👋"</text>
-      <text x="0" y="22" class="dialogue-sub" text-anchor="middle">Certified <tspan class="hl-cyan">Vibe Coder</tspan> &bull; Turning caffeine and beats into software.</text>
+      <text x="0" y="22" class="dialogue-sub" text-anchor="middle">Certified <tspan class="hl-cyan">Vibe Coder</tspan> &#8226; Turning caffeine and beats into software.</text>
     </g>
 
     <!-- Slide 2: Dusk & Pixel Art Passion -->
