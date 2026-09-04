@@ -64,7 +64,9 @@
 
 ---
 
-### 🕹️ DuskCore — TaskbarHero Utility
+### 📌 Featured Creations (Proudly Working On My Machine)
+
+#### 🕹️ DuskCore — TaskbarHero Utility
 
 <div align="center">
   <a href="https://duskcore.makizz.studio" target="_blank">
@@ -90,9 +92,9 @@
 - 🌐 **`PORTAL URL`**: [duskcore.makizz.studio](https://duskcore.makizz.studio)
 - 📦 **`SOURCE CODE`**: [`mhartkhiss/duskcore_flutter`](https://github.com/mhartkhiss/duskcore_flutter) 🔒 *(Private Repository)*
 
----
+<br/>
 
-### 📌 Featured Creations (Proudly Working On My Machine)
+#### 🚀 Other Notable Projects
 
 | Project | What it actually is | Vibe Check |
 | :--- | :--- | :--- |
