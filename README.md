@@ -94,7 +94,7 @@
 | Project | What it actually is | Vibe Check |
 | :--- | :--- | :--- |
 | **HealthConnect** | Full-scale healthcare appointment scheduling platform with real-time doctor rosters. | *Cures everything except the bugs I introduced at 3:15 AM.* |
-| **MKZ Music** | Cross-platform desktop audio player and offline music management hub. | *Built specifically so I can legally vibe and listen to high-fidelity audio while debugging.* |
-| **Equicon & ARC** | Administrative management & student requirements tracking systems. | *Automating deadline tracking so I can procrastinate with statistical precision.* |
+| **MKZ Music & Duskwave** | Cross-platform desktop & mobile local audio players with atmospheric dusk aesthetics. | *Built specifically so I can legally vibe and listen to high-fidelity audio while debugging.* |
+| **Equicon & ARC** | Commissioned PAP (Professional Academy of the Philippines) student systems — consultation scheduling & registrar archive tracking. | *Commissioned to conquer school bureaucracy so students actually show up and submit files on time.* |
 | **RouteSage & Longride GPS** | Route planning and telemetry tracking app for rides and navigation. | *Finds the quickest escape route when a merge conflict appears in production.* |
 
