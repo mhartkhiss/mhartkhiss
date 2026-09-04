@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="duskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#F43F5E" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#8B5CF6" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background Orbit Ring -->
+  <circle cx="50" cy="50" r="42" stroke="url(#duskGrad)" stroke-width="3" stroke-dasharray="8 6" opacity="0.6" />
+  
+  <!-- Outer Glow Circle -->
+  <circle cx="50" cy="50" r="35" fill="url(#duskGrad)" filter="url(#shadow)" />
+  
+  <!-- Crescent Moon Symbol -->
+  <path d="M56 26C42 26 31 37 31 51C31 65 42 76 56 76C48 70 43 60 43 51C43 42 48 32 56 26Z" fill="#FFFFFF" />
+  
+  <!-- Glowing Energy Orbs -->
+  <circle cx="70" cy="32" r="5" fill="url(#glowGrad)" />
+  <circle cx="74" cy="62" r="3.5" fill="#F43F5E" />
+</svg>

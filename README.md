@@ -64,7 +64,7 @@
 
 ---
 
-### 👾 [QUEST LOG // DUSKCORE]
+### 👾 <img src="./assets/duskcore-logo.svg" width="26" height="26" style="vertical-align: middle;" /> [QUEST LOG // DUSKCORE]
 
 <div align="center">
   <a href="https://duskcore.makizz.studio" target="_blank">
@@ -96,7 +96,7 @@
 
 | Project | What it actually is | Vibe Check |
 | :--- | :--- | :--- |
-| **DuskCore** | High-performance memory trainer and automation utility for TaskbarHero. | *Cheating? No, we call it unsolicited memory optimization.* |
+| <img src="./assets/duskcore-logo.svg" width="18" height="18" style="vertical-align: middle;" /> **DuskCore** | High-performance memory trainer and automation utility for TaskbarHero. | *Cheating? No, we call it unsolicited memory optimization.* |
 | **SpeakForge** | Capstone voice & speech synthesis platform with real-time server intelligence. | *It speaks, it listens, and honestly communicates better than most groupmates.* |
 | **HealthConnect** | Full-scale healthcare appointment scheduling platform with real-time doctor rosters. | *Cures everything except the bugs I introduced at 3:15 AM.* |
 | **MKZ Music & Karaoke** | Cross-platform audio player and synchronized karaoke suite. | *Built specifically so I can legally vibe and sing while debugging.* |
