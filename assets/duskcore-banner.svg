@@ -127,7 +127,7 @@
   <rect x="8" y="8" width="784" height="224" fill="url(#scanlines)" pointer-events="none" />
 
   <!-- DuskCore Official Logo (Positioned closely near DUSKCORE) -->
-  <g transform="translate(50, 10)">
+  <g transform="translate(44, 10)">
     <g class="sprite-anim">
       <!-- DuskCore Scaled Vector (70x70) -->
       <g transform="translate(0, 0) scale(0.70)">
@@ -153,8 +153,8 @@
 
   <!-- Retro Level Badge -->
   <g transform="translate(640, 34)">
-    <rect x="0" y="0" width="120" height="22" fill="#161622" stroke="#9ece6a" stroke-width="1.5" />
-    <text x="60" y="15" font-family="'PressStart', monospace" font-size="8.5" fill="#9ece6a" text-anchor="middle">STATUS: READY</text>
+    <rect x="0" y="0" width="120" height="22" fill="#161622" stroke="#00FF00" stroke-width="1.5" />
+    <text x="60" y="15" font-family="'PressStart', monospace" font-size="8.5" fill="#00FF00" text-anchor="middle">STATUS: READY</text>
   </g>
 
   <!-- Subtitle Line -->
