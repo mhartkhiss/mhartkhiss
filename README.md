@@ -64,10 +64,35 @@
 
 ---
 
+### 🕹️ Spotlight: DuskCore (TaskbarHero Utility & "Quality-of-Life" Suite)
+
+<div align="center">
+  <a href="https://duskcore.makizz.studio" target="_blank">
+    <img src="./assets/duskcore-banner.svg" alt="DuskCore - TaskbarHero Utility Banner" width="100%" />
+  </a>
+</div>
+
+<br/>
+
+> **"If you are familiar with the game TaskbarHero, you definitely need to try my utility tool called DuskCore."**
+
+Let’s be honest: why waste hundreds of hours aggressively grinding repetitive clicks in **TaskbarHero** when you can just politely persuade the game’s runtime memory into believing you’re an unstoppable god? 
+
+Some people call it a cheat engine. I call it an **unsolicited productivity suite** and an **ergonomic favor to your mouse switches**.
+
+- 🎯 **What it actually is**: An advanced memory trainer and automation utility for **TaskbarHero** (`v1.01.04`). It attaches to the game process, installs custom assembly hooks within 2GB bounds, bypasses ACTk anti-cheats, unlocks all DLC heroes & pets, automates 9-item inventory synthesis & chest opening, and applies real-time attribute multipliers (Attack, Move Speed, Crit, HP, Cooldowns).
+- 💻 **Languages & Core Tech**: **Dart / Flutter (Desktop)**, **C# (.NET)**, **x86 Assembly**, and **IL2CPP Memory Hooking**.
+- 🖥️ **Platforms**: **Windows Desktop** & **Web**.
+- 🌐 **Live Web App**: [duskcore.makizz.studio](https://duskcore.makizz.studio)
+- 📦 **Repository**: [`mhartkhiss/duskcore_flutter`](https://github.com/mhartkhiss/duskcore_flutter)
+
+---
+
 ### 📌 Featured Creations (Proudly Working On My Machine)
 
 | Project | What it actually is | Vibe Check |
 | :--- | :--- | :--- |
+| **DuskCore** | High-performance memory trainer and automation utility for TaskbarHero. | *Cheating? No, we call it unsolicited memory optimization.* |
 | **SpeakForge** | Capstone voice & speech synthesis platform with real-time server intelligence. | *It speaks, it listens, and honestly communicates better than most groupmates.* |
 | **HealthConnect** | Full-scale healthcare appointment scheduling platform with real-time doctor rosters. | *Cures everything except the bugs I introduced at 3:15 AM.* |
 | **MKZ Music & Karaoke** | Cross-platform audio player and synchronized karaoke suite. | *Built specifically so I can legally vibe and sing while debugging.* |
