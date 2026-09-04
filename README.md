@@ -22,7 +22,7 @@
 ### 🦾 Tech Stack Interface
 
 <div align="center">
-  <img src="./assets/ironman-tech-stack.svg?v=6" alt="Makizz Iron Man Tech Stack HUD" width="100%" />
+  <img src="./assets/ironman-tech-stack.svg?v=7" alt="Makizz Iron Man Tech Stack HUD" width="100%" />
 </div>
 
 ---
@@ -62,19 +62,6 @@
 | **MKZ Music & Karaoke** | Cross-platform audio player and synchronized karaoke suite. | *Built specifically so I can legally vibe and sing while debugging.* |
 | **Equicon & ARC** | Administrative management & student requirements tracking systems. | *Automating deadline tracking so I can procrastinate with statistical precision.* |
 | **RouteSage & Longride GPS** | Route planning and telemetry tracking app for rides and navigation. | *Finds the quickest escape route when a merge conflict appears in production.* |
-
----
-
-### 📊 GitHub Activity (Proof of Life)
-
-<div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=mhartkhiss&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Mhart Khiss GitHub Stats" width="48%" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhartkhiss&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
-</div>
-
-<div align="center" style="margin-top: 10px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mhartkhiss&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="97%" />
-</div>
 
 ---
 
