@@ -70,11 +70,29 @@
 
 <br/>
 
+#### <img src="./assets/speakforge-logo.svg" width="24" height="24" valign="middle" /> SpeakForge — AI Multilingual Communication Engine
+
+<div align="center">
+  <a href="https://github.com/mhartkhiss/speakforge-capstone2" target="_blank">
+    <img src="./assets/speakforge-banner.svg?v=2" alt="SpeakForge - AI Multilingual Communication Engine Banner" width="100%" />
+  </a>
+</div>
+
+> **`VIBE CHECK`**  
+> *Why let language barriers ruin a conversation when AI can forge real-time understanding between Bisaya and the rest of the world?*
+
+- 📖 **`ABOUT`**: AI-powered multilingual communication platform engineered to bridge language barriers between local Bisaya communities, expatriates, tourists, and international students. Users speak or type in their native tongue on Android, and the system instantly transcribes with ML Kit, translates via multi-model AI routing (Gemini, Claude, and DeepSeek), and speaks aloud via neural text-to-speech. Built with a full-stack architecture featuring an Android client, Django REST API, React administration dashboard, and Firebase real-time state synchronization.
+- 🗡️ **`CLASS / TECH`**: `Android (Java)` &bull; `Django REST (Python)` &bull; `React.js` &bull; `Gemini / Claude / DeepSeek` &bull; `Firebase` &bull; `ML Kit`
+- 💻 **`PLATFORMS`**: `[ Android Mobile App ]` &bull; `[ Web Admin Dashboard ]` &bull; `[ Cloud API ]`
+- 🌐 **`PORTAL URL`**: [github.com/mhartkhiss/speakforge-capstone2](https://github.com/mhartkhiss/speakforge-capstone2)
+- 📦 **`SOURCE CODE`**: [`mhartkhiss/speakforge-capstone2`](https://github.com/mhartkhiss/speakforge-capstone2) 🌐 *(Public Repository)*
+
+<br/>
+
 #### 🚀 Other Notable Projects
 
 | Project | What it actually is | Vibe Check |
 | :--- | :--- | :--- |
-| **SpeakForge** | Capstone voice & speech synthesis platform with real-time server intelligence. | *It speaks, it listens, and honestly communicates better than most groupmates.* |
 | **HealthConnect** | Full-scale healthcare appointment scheduling platform with real-time doctor rosters. | *Cures everything except the bugs I introduced at 3:15 AM.* |
 | **MKZ Music** | Cross-platform desktop audio player and offline music management hub. | *Built specifically so I can legally vibe and listen to high-fidelity audio while debugging.* |
 | **Equicon & ARC** | Administrative management & student requirements tracking systems. | *Automating deadline tracking so I can procrastinate with statistical precision.* |
