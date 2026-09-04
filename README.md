@@ -74,7 +74,7 @@
 
 <div align="center">
   <a href="https://github.com/mhartkhiss/speakforge-capstone2" target="_blank">
-    <img src="./assets/speakforge-banner.svg?v=4" alt="SpeakForge - AI Multilingual Communication Engine Banner" width="100%" />
+    <img src="./assets/speakforge-banner.svg?v=5" alt="SpeakForge - AI Multilingual Communication Engine Banner" width="100%" />
   </a>
 </div>
 
