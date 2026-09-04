@@ -2,12 +2,12 @@
 
   <!-- Animated Header Typing Banner -->
   <a href="https://github.com/mhartkhiss">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Hi+there,+I'm+Mhart+Khiss!+%F0%9F%91%8B;Professional+Vibe+Coder%E2%84%A2+%F0%9F%8E%A7;Yes+I+code,+but+vibing+while+coding+is+the+meta+%F0%9F%9A%80;Works+on+my+machine%E2%84%A2+--+yours+is+on+you+%C2%AF%5C_(%E3%83%84)_%2F%C2%AF;Based+in+Cebu+City,+PH+%F0%9F%87%B5%F0%9F%87%AD" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&height=50&lines=Hi+there,+I'm+Mhart+Khiss!+%F0%9F%91%8B;Certified+Vibe+Coder+%F0%9F%8E%A7;Yes+I+code,+but+vibing+while+coding+is+the+meta+%F0%9F%9A%80;Works+on+my+machine+--+yours+is+on+you+%C2%AF%5C_(%E3%83%84)_%2F%C2%AF" alt="Typing SVG" />
   </a>
 
   <p align="center">
-    <strong>Certified Vibe Coder™</strong> &bull; Turning caffeine and lo-fi beats into semi-stable software.<br/>
-    <i>"Works on my machine™ — if it breaks on yours, that's on you."</i>
+    <strong>Certified Vibe Coder</strong> &bull; Turning caffeine and lo-fi beats into semi-stable software.<br/>
+    <i>"Works on my machine — if it breaks on yours, that's on you."</i>
   </p>
 
   <!-- Quick Social Badges -->
@@ -32,7 +32,6 @@
 - 🌐 **Web Sorcery**: Crafting responsive frontends with **React, Vite & Tailwind CSS** that look way cleaner than my room.
 - ☁️ **Backend Reality**: Gluing together **Firebase, Node.js, and Laravel** and calling it an "enterprise architectural pattern".
 - 🧪 **Testing Strategy**: `console.log("here 1")` &rarr; `console.log("why is it not working")` &rarr; `git push --force` &rarr; sleep.
-- 📍 Based in **Cebu City, Philippines 🇵🇭** — where the Wi-Fi might drop, but the vibe never dies.
 
 ---
 
@@ -91,5 +90,5 @@
 
 <div align="center">
   <p><i>"Any code that compiles on the first try is pure witchcraft and should not be trusted."</i></p>
-  <sub>Works on my machine™ &bull; Powered by Vibes, Caffeine, and GitHub</sub>
+  <sub>Works on my machine &bull; Powered by Vibes, Caffeine, and GitHub</sub>
 </div>
