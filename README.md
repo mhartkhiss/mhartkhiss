@@ -1,10 +1,10 @@
 <div align="center">
 
   <!-- Dusk & Midnight Hero Header -->
-  <img src="./assets/profile-header.svg?v=7" alt="Mhart Khiss (Makizz) - Dusk, Twilight & Pixel Art Vibe Coder" width="100%" />
+  <img src="./assets/profile-header.svg?v=7" alt="Mhart Khiss (Makizz) - Certified Vibe Coder" width="100%" />
 
   <p align="center">
-    🌌 <strong>Dusk, Twilight & Midnight Enthusiast</strong> &bull; 🕹️ <strong>Pixel Art Devotee</strong> &bull; 🎧 <strong>Certified Vibe Coder</strong><br/>
+    🎧 <strong>Certified Vibe Coder</strong><br/>
     <i>"Works on my machine — if it breaks on yours, that's on you."</i>
   </p>
 
@@ -62,10 +62,3 @@
 | **MKZ Music & Karaoke** | Cross-platform audio player and synchronized karaoke suite. | *Built specifically so I can legally vibe and sing while debugging.* |
 | **Equicon & ARC** | Administrative management & student requirements tracking systems. | *Automating deadline tracking so I can procrastinate with statistical precision.* |
 | **RouteSage & Longride GPS** | Route planning and telemetry tracking app for rides and navigation. | *Finds the quickest escape route when a merge conflict appears in production.* |
-
----
-
-<div align="center">
-  <p><i>"Any code that compiles on the first try is pure witchcraft and should not be trusted."</i></p>
-  <sub>Works on my machine &bull; Powered by Vibes, Caffeine, and GitHub</sub>
-</div>
