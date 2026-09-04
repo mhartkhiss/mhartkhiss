@@ -55,12 +55,9 @@
 #### 🎤 MKZ Karaoke — Real-Time Party Songbook & Player
 
 <div align="center">
-  <a href="https://github.com/mhartkhiss/MKZ-karaoke" target="_blank">
-    <img src="./assets/mkz-karaoke-banner.svg?v=1" alt="MKZ Karaoke - Real-Time Party Songbook Banner" width="100%" />
+  <a href="https://mkzkaraoke.netlify.app" target="_blank">
+    <img src="./assets/mkz-karaoke-banner.svg?v=3" alt="MKZ Karaoke - Real-Time Party Songbook Banner" width="100%" />
   </a>
-  <div style="margin-top: 8px;">
-    <img src="./assets/mkz-karaoke-dialogue.svg?v=1" alt="MKZ Karaoke Room Dialogue" width="540" />
-  </div>
 </div>
 
 > **`VIBE CHECK`**  
@@ -70,8 +67,8 @@
 - 🎯 **`MISSION BRIEF`**: Modern, synchronized real-time karaoke web application. Hosts launch a central video player screen with queue orchestration, while guests instantly join via 5-character alphanumeric room codes or direct QR code scans to search YouTube & custom catalogs, submit tracks, and manage the room playlist in real-time. Includes an admin suite for session supervision, custom song curation, and automated multi-key YouTube API rotation.
 - 🗡️ **`CLASS / TECH`**: `React 19` &bull; `Vite` &bull; `Firebase Realtime Database` &bull; `Tailwind CSS` &bull; `Material UI` &bull; `Framer Motion` &bull; `YouTube Data API v3`
 - 💻 **`PLATFORMS`**: `[ Web Application (Host Screen) ]` &bull; `[ Mobile Web (Guest Songbook) ]`
-- 🌐 **`PORTAL URL`**: [github.com/mhartkhiss/MKZ-karaoke](https://github.com/mhartkhiss/MKZ-karaoke)
-- 📦 **`SOURCE CODE`**: [`mhartkhiss/MKZ-karaoke`](https://github.com/mhartkhiss/MKZ-karaoke) 🌐 *(Public Repository)*
+- 🌐 **`PORTAL URL`**: [mkzkaraoke.netlify.app](https://mkzkaraoke.netlify.app)
+- 📦 **`SOURCE CODE`**: [`mhartkhiss/MKZ-karaoke`](https://github.com/mhartkhiss/MKZ-karaoke) 🔒 *(Private Repository)*
 
 <br/>
 
