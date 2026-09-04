@@ -72,15 +72,10 @@
   <a href="https://duskcore.makizz.studio" target="_blank">
     <img src="./assets/duskcore-banner.svg?v=4" alt="DuskCore - TaskbarHero Utility Banner" width="100%" />
   </a>
+  <div style="margin-top: 8px;">
+    <img src="./assets/duskcore-dialogue.svg" alt="DuskCore Player Dialogue" width="540" />
+  </div>
 </div>
-
-```text
-╔═══════════════════════════════════════════════════════════════════════════════════════╗
-║  [PLAYER DIALOGUE]                                                                    ║
-║  "If you are familiar with the game TaskbarHero, you definitely need to try my       ║
-║   utility tool called DuskCore."                                                      ║
-╚═══════════════════════════════════════════════════════════════════════════════════════╝
-```
 
 > 🕹️ **`[SYSTEM STATUS: ACTIVE]`**  
 > *Why waste 100 hours aggressively grinding repetitive clicks in **TaskbarHero** when you can just politely persuade the game's runtime memory into believing you're an unstoppable god?*  
