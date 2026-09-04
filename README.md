@@ -22,7 +22,7 @@
 <h3 align="center">⚡ My Tech Stack</h3>
 
 <div align="center">
-  <img src="./assets/my-tech-stack.svg" alt="Makizz Iron Man Tech Stack HUD" width="100%" />
+  <img src="./assets/my-tech-stack.svg?v=2" alt="Makizz Iron Man Tech Stack HUD" width="100%" />
 </div>
 
 ---

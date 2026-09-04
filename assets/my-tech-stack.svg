@@ -485,34 +485,50 @@
 
     <!-- Tech Badges -->
     <g transform="translate(10, 66)">
-      <!-- Row 1 -->
+      <!-- Row 1: Python, Django, Node.js -->
       <g>
-        <!-- Node.js -->
+        <!-- Python -->
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="76" height="20" rx="3" fill="#0d2417" stroke="#22c55e" stroke-width="0.8" />
-          <polygon points="10,5 15,8 15,13 10,16 5,13 5,8" fill="#22c55e" />
-          <text x="20" y="14" class="badge-txt">Node.js</text>
+          <rect x="0" y="0" width="74" height="20" rx="3" fill="#0f1b2b" stroke="#38bdf8" stroke-width="0.8" />
+          <path d="M 8 5 H 11 A 2 2 0 0 1 13 7 V 10 H 9 A 2 2 0 0 0 7 12 V 13 H 6 A 2 2 0 0 1 4 11 V 8 A 2 2 0 0 1 6 5 Z" fill="#38bdf8" />
+          <circle cx="7" cy="7" r="0.8" fill="#0f1b2b" />
+          <path d="M 12 15 H 9 A 2 2 0 0 1 7 13 V 10 H 11 A 2 2 0 0 0 13 8 V 7 H 14 A 2 2 0 0 1 16 9 V 12 A 2 2 0 0 1 14 15 Z" fill="#facc15" />
+          <circle cx="13" cy="13" r="0.8" fill="#0f1b2b" />
+          <text x="20" y="14" class="badge-txt">Python</text>
         </g>
+        <!-- Django -->
+        <g transform="translate(80, 0)">
+          <rect x="0" y="0" width="74" height="20" rx="3" fill="#072017" stroke="#10b981" stroke-width="0.8" />
+          <rect x="5" y="5" width="10" height="10" rx="2" fill="#047857" />
+          <text x="10" y="13.5" font-family="system-ui, sans-serif" font-size="7.5" font-weight="900" fill="#ffffff" text-anchor="middle">dj</text>
+          <text x="20" y="14" class="badge-txt">Django</text>
+        </g>
+        <!-- Node.js -->
+        <g transform="translate(160, 0)">
+          <rect x="0" y="0" width="74" height="20" rx="3" fill="#0d2417" stroke="#22c55e" stroke-width="0.8" />
+          <polygon points="10,5 15,8 15,13 10,16 5,13 5,8" fill="#22c55e" />
+          <text x="19" y="14" class="badge-txt">Node.js</text>
+        </g>
+      </g>
+      <!-- Row 2: Express, Laravel, PHP -->
+      <g transform="translate(0, 24)">
         <!-- Express -->
-        <g transform="translate(82, 0)">
-          <rect x="0" y="0" width="78" height="20" rx="3" fill="#1e293b" stroke="#94a3b8" stroke-width="0.8" />
+        <g transform="translate(0, 0)">
+          <rect x="0" y="0" width="74" height="20" rx="3" fill="#1e293b" stroke="#94a3b8" stroke-width="0.8" />
           <circle cx="10" cy="10" r="4" fill="#475569" />
           <text x="19" y="14" class="badge-txt">Express</text>
         </g>
-      </g>
-      <!-- Row 2 -->
-      <g transform="translate(0, 24)">
         <!-- Laravel -->
-        <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="76" height="20" rx="3" fill="#291114" stroke="#f43f5e" stroke-width="0.8" />
+        <g transform="translate(80, 0)">
+          <rect x="0" y="0" width="74" height="20" rx="3" fill="#291114" stroke="#f43f5e" stroke-width="0.8" />
           <polygon points="8,6 14,9 11,15 5,12" fill="#ef4444" />
           <text x="19" y="14" class="badge-txt">Laravel</text>
         </g>
         <!-- PHP -->
-        <g transform="translate(82, 0)">
-          <rect x="0" y="0" width="50" height="20" rx="3" fill="#161b2e" stroke="#818cf8" stroke-width="0.8" />
+        <g transform="translate(160, 0)">
+          <rect x="0" y="0" width="52" height="20" rx="3" fill="#161b2e" stroke="#818cf8" stroke-width="0.8" />
           <ellipse cx="9" cy="10" rx="4" ry="3" fill="#6366f1" />
-          <text x="16" y="14" class="badge-txt">PHP</text>
+          <text x="17" y="14" class="badge-txt">PHP</text>
         </g>
       </g>
     </g>
