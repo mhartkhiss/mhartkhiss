@@ -64,7 +64,7 @@
 > *Nobody likes wrestling over a sticky TV remote or huddling around a screen just to search for a song.*  
 > *MKZ Karaoke turns every party guest's smartphone into a synchronized songbook and queue controller while the big screen keeps the video rocking.*
 
-- 🎯 **`MISSION BRIEF`**: Modern, synchronized real-time karaoke web application. Hosts launch a central video player screen with queue orchestration, while guests instantly join via 5-character alphanumeric room codes or direct QR code scans to search YouTube & custom catalogs, submit tracks, and manage the room playlist in real-time. Includes an admin suite for session supervision, custom song curation, and automated multi-key YouTube API rotation.
+- 📖 **`ABOUT`**: Real-time collaborative karaoke platform built to eliminate the chaos of wrestling over a remote control or crowding around a TV screen. A host launches the central session on a living room TV or laptop to handle video streaming and playback controls, while friends and party guests instantly scan the on-screen QR code from their phones to search YouTube & curated catalogs, queue up their favorite anthems, and follow the playlist live. Built with Firebase Realtime Database for instantaneous state synchronization across all connected devices and automated multi-key YouTube API rotation to guarantee non-stop playback.
 - 🗡️ **`CLASS / TECH`**: `React 19` &bull; `Vite` &bull; `Firebase Realtime Database` &bull; `Tailwind CSS` &bull; `Material UI` &bull; `Framer Motion` &bull; `YouTube Data API v3`
 - 💻 **`PLATFORMS`**: `[ Web Application (Host Screen) ]` &bull; `[ Mobile Web (Guest Songbook) ]`
 - 🌐 **`PORTAL URL`**: [mkzkaraoke.netlify.app](https://mkzkaraoke.netlify.app)
