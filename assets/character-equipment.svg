@@ -155,7 +155,7 @@
   <!-- ==================== TOP HUD HEADER ==================== -->
   <g transform="translate(24, 18)">
     <rect x="0" y="0" width="802" height="40" rx="5" fill="#090d1c" stroke="#1e293b" stroke-width="1.2" />
-    <text x="14" y="25" class="stark-brand">VIBE CODING LIKE STARK <tspan fill="#f59e0b">// MARK MKZ TECH STACK</tspan></text>
+    <text x="14" y="25" class="stark-brand">VIBE CODING LIKE STARK <tspan fill="#f59e0b">// TECH STACK</tspan></text>
     
     <!-- Status Pill Right -->
     <g transform="translate(585, 9)">
@@ -528,7 +528,7 @@
     <text x="14" y="20" class="bottom-stat-title">SYSTEM TELEMETRY:</text>
     <text x="195" y="20" class="bottom-stat-txt">CORE: <tspan fill="#00f0ff">SYNCHRONIZED</tspan></text>
     <text x="360" y="20" class="bottom-stat-txt">DIAGNOSTICS: <tspan fill="#10b981">OPTIMAL (0 ERRORS)</tspan></text>
-    <text x="590" y="20" class="bottom-stat-txt">PROTOCOL: <tspan fill="#f59e0b">MAKIZZ MARK-VII</tspan></text>
+    <text x="590" y="20" class="bottom-stat-txt">PROTOCOL: <tspan fill="#f59e0b">MAKIZZ CORE</tspan></text>
 
     <!-- Row 2: Status Text -->
     <text x="14" y="38" class="bottom-stat-title" fill="#f59e0b">MODULE STATUS:</text>
