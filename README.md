@@ -22,20 +22,6 @@
 
 ---
 
-### 🎧 The Philosophy: Vibe Coding is the Meta
-
-- 👋 Hey! I'm **Mhart Khiss** (you can call me **Makizz**).
-- 🎓 **Information Technology** student majoring in *turning Stack Overflow tabs and 2 AM beats into deployable apps*.
-- 🌆 **Dusk & Twilight Devotee**: Obsessed with **dusk, twilight, and midnight aesthetics** — deep indigo night skies, neon violet glows, and late-night coding sessions when the world is quiet.
-- 🕹️ **Pixel Art Devotee**: Passionate lover of **pixel art & retro aesthetics** (crisp sprites, scanlines, nostalgic vibes, and creating companion utilities like [*TaskbarHero* / *DuskCore*](#-duskcore--taskbarhero-utility)).
-- 🕶️ **Yes, I actually code** — but let's be real: writing syntax without immaculate music, aesthetic dark mode, and pure vibes is strictly deprecated.
-- 📱 **Mobile Wizardry**: Wrangling **Flutter & Dart** until the layout stops overflowing by `2.4 pixels` on random Android devices.
-- 🌐 **Web Sorcery**: Crafting responsive frontends with **React, Vite & Tailwind CSS** that look way cleaner than my room.
-- ☁️ **Backend Reality**: Gluing together **Firebase, Node.js, and Laravel** and calling it an "enterprise architectural pattern".
-- 🧪 **Testing Strategy**: `console.log("here 1")` &rarr; `console.log("why is it not working")` &rarr; `git push --force` &rarr; sleep.
-
----
-
 ### 🛠️ The "Tech Stack" (Things I Pretend to Understand)
 
 <div align="center">
