@@ -19,7 +19,7 @@
 
 ---
 
-### ⚡ My Tech Stack
+<h3 align="center">⚡ My Tech Stack</h3>
 
 <div align="center">
   <img src="./assets/ironman-tech-stack.svg?v=10" alt="Makizz Iron Man Tech Stack HUD" width="100%" />
@@ -27,7 +27,7 @@
 
 ---
 
-### 📌 Featured Creations (Proudly Working On My Machine)
+<h3 align="center">📌 Featured Creations</h3>
 
 #### 🕹️ DuskCore — TaskbarHero Utility
 
