@@ -2,11 +2,11 @@
 
   <!-- Dusk & Midnight Hero Header -->
   <a href="https://github.com/mhartkhiss">
-    <img src="./assets/profile-header.svg" alt="Mhart Khiss (Makizz) - Dusk, Twilight & Pixel Art Vibe Coder" width="100%" />
+    <img src="./assets/profile-header.svg?v=3" alt="Mhart Khiss (Makizz) - Dusk, Twilight & Pixel Art Vibe Coder" width="100%" />
   </a>
 
   <p align="center">
-    🌌 <strong>Dusk, Twilight & Midnight Enthusiast</strong> &bull; 🕹️ <strong>Pixel Art Gamer</strong> &bull; 🎧 <strong>Certified Vibe Coder</strong><br/>
+    🌌 <strong>Dusk, Twilight & Midnight Enthusiast</strong> &bull; 🕹️ <strong>Pixel Art Devotee</strong> &bull; 🎧 <strong>Certified Vibe Coder</strong><br/>
     <i>"Works on my machine — if it breaks on yours, that's on you."</i>
   </p>
 
@@ -29,7 +29,7 @@
 - 👋 Hey! I'm **Mhart Khiss** (you can call me **Makizz**).
 - 🎓 **Information Technology** student majoring in *turning Stack Overflow tabs and 2 AM beats into deployable apps*.
 - 🌆 **Dusk & Twilight Devotee**: Obsessed with **dusk, twilight, and midnight aesthetics** — deep indigo night skies, neon violet glows, and late-night coding sessions when the world is quiet.
-- 🕹️ **Pixel Art Games Aficionado**: Passionate lover of **pixel art games & retro aesthetics** (crisp sprites, scanlines, nostalgic vibes, and building gaming utilities like [*TaskbarHero* / *DuskCore*](#-duskcore--taskbarhero-utility)).
+- 🕹️ **Pixel Art Devotee**: Passionate lover of **pixel art & retro aesthetics** (crisp sprites, scanlines, nostalgic vibes, and creating companion utilities like [*TaskbarHero* / *DuskCore*](#-duskcore--taskbarhero-utility)).
 - 🕶️ **Yes, I actually code** — but let's be real: writing syntax without immaculate music, aesthetic dark mode, and pure vibes is strictly deprecated.
 - 📱 **Mobile Wizardry**: Wrangling **Flutter & Dart** until the layout stops overflowing by `2.4 pixels` on random Android devices.
 - 🌐 **Web Sorcery**: Crafting responsive frontends with **React, Vite & Tailwind CSS** that look way cleaner than my room.
