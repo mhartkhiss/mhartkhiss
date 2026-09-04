@@ -64,7 +64,7 @@
 
 ---
 
-### 🕹️ Spotlight: DuskCore (TaskbarHero Utility & "Quality-of-Life" Suite)
+### 👾 [QUEST LOG // DUSKCORE]
 
 <div align="center">
   <a href="https://duskcore.makizz.studio" target="_blank">
@@ -72,19 +72,23 @@
   </a>
 </div>
 
-<br/>
+```text
+╔═══════════════════════════════════════════════════════════════════════════════════════╗
+║  [PLAYER DIALOGUE]                                                                    ║
+║  "If you are familiar with the game TaskbarHero, you definitely need to try my       ║
+║   utility tool called DuskCore."                                                      ║
+╚═══════════════════════════════════════════════════════════════════════════════════════╝
+```
 
-> **"If you are familiar with the game TaskbarHero, you definitely need to try my utility tool called DuskCore."**
+> 🕹️ **`[SYSTEM STATUS: CHEAT_ENGINE.EXE]`**  
+> *Why waste 100 hours aggressively grinding repetitive clicks in **TaskbarHero** when you can just politely persuade the game's runtime memory into believing you're an unstoppable god?*  
+> *Some people call it a cheat engine. I call it an **unsolicited productivity suite** and an **ergonomic favor to your mouse switches**.*
 
-Let’s be honest: why waste hundreds of hours aggressively grinding repetitive clicks in **TaskbarHero** when you can just politely persuade the game’s runtime memory into believing you’re an unstoppable god? 
-
-Some people call it a cheat engine. I call it an **unsolicited productivity suite** and an **ergonomic favor to your mouse switches**.
-
-- 🎯 **What it actually is**: An advanced memory trainer and automation utility for **TaskbarHero** (`v1.01.04`). It attaches to the game process, installs custom assembly hooks within 2GB bounds, bypasses ACTk anti-cheats, unlocks all DLC heroes & pets, automates 9-item inventory synthesis & chest opening, and applies real-time attribute multipliers (Attack, Move Speed, Crit, HP, Cooldowns).
-- 💻 **Languages & Core Tech**: **Dart / Flutter (Desktop)**, **C# (.NET)**, **x86 Assembly**, and **IL2CPP Memory Hooking**.
-- 🖥️ **Platforms**: **Windows Desktop** & **Web**.
-- 🌐 **Live Web App**: [duskcore.makizz.studio](https://duskcore.makizz.studio)
-- 📦 **Repository**: [`mhartkhiss/duskcore_flutter`](https://github.com/mhartkhiss/duskcore_flutter)
+- 🎯 **`MISSION BRIEF`**: Advanced memory trainer & automation companion for **TaskbarHero** (`v1.01.04`). Attaches to the game process, installs custom assembly hooks within 2GB bounds, bypasses ACTk anti-cheats, unlocks all DLC heroes & pets, automates 9-item gear synthesis & chest opening, and overrides real-time stats (Attack, Move Speed, Crit, HP, Cooldowns).
+- 🗡️ **`CLASS / TECH`**: `Flutter Desktop` &bull; `Dart` &bull; `C# (.NET)` &bull; `IL2CPP Hooking` &bull; `x86 Assembly`
+- 💻 **`PLATFORMS`**: `[ Windows Desktop ]` &bull; `[ Web Application ]`
+- 🌐 **`PORTAL URL`**: [duskcore.makizz.studio](https://duskcore.makizz.studio)
+- 📦 **`SOURCE CODE`**: [`mhartkhiss/duskcore_flutter`](https://github.com/mhartkhiss/duskcore_flutter)
 
 ---
 
