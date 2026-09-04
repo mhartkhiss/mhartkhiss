@@ -1,9 +1,7 @@
 <div align="center">
 
   <!-- Dusk & Midnight Hero Header -->
-  <a href="https://github.com/mhartkhiss">
-    <img src="./assets/profile-header.svg?v=7" alt="Mhart Khiss (Makizz) - Dusk, Twilight & Pixel Art Vibe Coder" width="100%" />
-  </a>
+  <img src="./assets/profile-header.svg?v=7" alt="Mhart Khiss (Makizz) - Dusk, Twilight & Pixel Art Vibe Coder" width="100%" />
 
   <p align="center">
     🌌 <strong>Dusk, Twilight & Midnight Enthusiast</strong> &bull; 🕹️ <strong>Pixel Art Devotee</strong> &bull; 🎧 <strong>Certified Vibe Coder</strong><br/>
