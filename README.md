@@ -22,7 +22,7 @@
 ### 🦾 Tech Stack Interface
 
 <div align="center">
-  <img src="./assets/ironman-tech-stack.svg?v=4" alt="Makizz Iron Man Tech Stack HUD" width="100%" />
+  <img src="./assets/ironman-tech-stack.svg?v=5" alt="Makizz Iron Man Tech Stack HUD" width="100%" />
 </div>
 
 ---
