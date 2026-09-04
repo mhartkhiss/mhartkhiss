@@ -2,7 +2,7 @@
 
   <!-- Dusk & Midnight Hero Header -->
   <a href="https://github.com/mhartkhiss">
-    <img src="./assets/profile-header.svg?v=3" alt="Mhart Khiss (Makizz) - Dusk, Twilight & Pixel Art Vibe Coder" width="100%" />
+    <img src="./assets/profile-header.svg?v=5" alt="Mhart Khiss (Makizz) - Dusk, Twilight & Pixel Art Vibe Coder" width="100%" />
   </a>
 
   <p align="center">

@@ -73,22 +73,23 @@
       .msg-4 { animation: cycle4 16s infinite; }
 
       .dialogue-main {
-        font-family: 'PressStart', 'Courier New', monospace;
-        font-size: 10px;
+        font-family: 'Silkscreen', 'PressStart', 'Segoe UI', monospace;
+        font-size: 14px;
+        font-weight: 700;
         fill: #c0caf5;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.8px;
       }
       .dialogue-sub {
-        font-family: 'PressStart', 'Courier New', monospace;
-        font-size: 9.5px;
+        font-family: 'Silkscreen', 'PressStart', 'Segoe UI', monospace;
+        font-size: 11.5px;
         fill: #a9b1d6;
         letter-spacing: 0.5px;
       }
       .nameplate-txt {
-        font-family: 'PressStart', 'Courier New', monospace;
-        font-size: 8px;
+        font-family: 'PressStart', 'Silkscreen', monospace;
+        font-size: 9.5px;
         fill: #bb9af7;
-        letter-spacing: 0.8px;
+        letter-spacing: 1px;
       }
       .hl-cyan { fill: #7dcfff; }
       .hl-purple { fill: #bb9af7; }
@@ -176,12 +177,12 @@
   </g>
 
   <!-- Speaker / Avatar Nameplate Tag (Top Left) -->
-  <g transform="translate(60, 6)">
-    <rect x="0" y="0" width="255" height="20" rx="4" fill="#141126" stroke="#bb9af7" stroke-width="1.2" />
+  <g transform="translate(60, 5)">
+    <rect x="0" y="0" width="280" height="22" rx="4" fill="#141126" stroke="#bb9af7" stroke-width="1.2" />
     <!-- Blinking Neon Dot -->
-    <circle cx="12" cy="10" r="3.5" fill="#f7768e" />
-    <circle cx="12" cy="10" r="1.5" fill="#ffffff" />
-    <text x="24" y="14" class="nameplate-txt">🌌 MAKIZZ // VIBE CODER</text>
+    <circle cx="12" cy="11" r="3.5" fill="#f7768e" />
+    <circle cx="12" cy="11" r="1.5" fill="#ffffff" />
+    <text x="24" y="15" class="nameplate-txt">🌌 MAKIZZ // VIBE CODER</text>
   </g>
 
   <!-- Speech Bubble Frame (with Pointer pointing up to Nameplate) -->
@@ -194,30 +195,30 @@
   <path d="M 52 38 H 82 L 90 26 L 98 38 H 796 A 6 6 0 0 1 802 44 V 132 A 6 6 0 0 1 796 138 H 52 A 6 6 0 0 1 46 132 V 44 A 6 6 0 0 1 52 38 Z" fill="none" stroke="#bb9af7" stroke-width="1" stroke-dasharray="8 6" opacity="0.35" pointer-events="none" />
 
   <!-- Dialogue Text Messages (Centered Iteration inside Speech Bubble) -->
-  <g transform="translate(425, 75)">
+  <g transform="translate(425, 78)">
     
     <!-- Slide 1: Introduction -->
     <g class="msg-1">
       <text x="0" y="0" class="dialogue-main" text-anchor="middle">"Hi there, I'm <tspan class="hl-cyan">Mhart Khiss</tspan> (you can call me <tspan class="hl-purple">Makizz</tspan>)! 👋"</text>
-      <text x="0" y="22" class="dialogue-sub" text-anchor="middle">Certified <tspan class="hl-cyan">Vibe Coder</tspan> &#8226; Turning caffeine and beats into software.</text>
+      <text x="0" y="26" class="dialogue-sub" text-anchor="middle">Certified <tspan class="hl-cyan">Vibe Coder</tspan> &#8226; Turning caffeine and beats into software.</text>
     </g>
 
     <!-- Slide 2: Dusk & Pixel Art Passion -->
     <g class="msg-2">
       <text x="0" y="0" class="dialogue-main" text-anchor="middle">"Deeply obsessed with <tspan class="hl-pink">Dusk, Twilight</tspan> &amp; <tspan class="hl-purple">Midnight</tspan> aesthetics."</text>
-      <text x="0" y="22" class="dialogue-sub" text-anchor="middle">Passionate creator &amp; lover of all things <tspan class="hl-yellow">Pixel Art</tspan> 🕹️</text>
+      <text x="0" y="26" class="dialogue-sub" text-anchor="middle">Passionate creator &amp; lover of all things <tspan class="hl-yellow">Pixel Art</tspan> 🕹️</text>
     </g>
 
     <!-- Slide 3: Philosophy / Coding Meta -->
     <g class="msg-3">
       <text x="0" y="0" class="dialogue-main" text-anchor="middle">"Yes I code — but <tspan class="hl-cyan">vibing while coding</tspan> is the absolute meta."</text>
-      <text x="0" y="22" class="dialogue-sub" text-anchor="middle">Writing syntax without <tspan class="hl-purple">2 AM lo-fi beats</tspan> is strictly deprecated 🎧</text>
+      <text x="0" y="26" class="dialogue-sub" text-anchor="middle">Writing syntax without <tspan class="hl-purple">2 AM lo-fi beats</tspan> is strictly deprecated 🎧</text>
     </g>
 
     <!-- Slide 4: Works on My Machine -->
     <g class="msg-4">
       <text x="0" y="0" class="dialogue-main" text-anchor="middle">"Works on my machine! 🚀"</text>
-      <text x="0" y="22" class="dialogue-sub" text-anchor="middle">If it breaks on yours, that's an unresolved <tspan class="hl-pink">skill issue</tspan> ☕</text>
+      <text x="0" y="26" class="dialogue-sub" text-anchor="middle">If it breaks on yours, that's an unresolved <tspan class="hl-pink">skill issue</tspan> ☕</text>
     </g>
 
   </g>
