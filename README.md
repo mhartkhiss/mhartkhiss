@@ -1,12 +1,12 @@
 <div align="center">
 
-  <!-- Animated Header Typing Banner -->
+  <!-- Dusk & Midnight Hero Header -->
   <a href="https://github.com/mhartkhiss">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=820&height=50&lines=Hi+there,+I'm+Mhart+Khiss+(you+can+call+me+Makizz)!+%F0%9F%91%8B;Certified+Vibe+Coder+%F0%9F%8E%A7;Yes+I+code,+but+vibing+while+coding+is+the+meta+%F0%9F%9A%80;Works+on+my+machine+--+if+it+breaks+on+yours,+that's+on+you" alt="Typing SVG" />
+    <img src="./assets/profile-header.svg" alt="Mhart Khiss (Makizz) - Dusk, Twilight & Pixel Art Vibe Coder" width="100%" />
   </a>
 
   <p align="center">
-    <strong>Certified Vibe Coder</strong> &bull; Turning caffeine and lo-fi beats into semi-stable software.<br/>
+    🌌 <strong>Dusk, Twilight & Midnight Enthusiast</strong> &bull; 🕹️ <strong>Pixel Art Gamer</strong> &bull; 🎧 <strong>Certified Vibe Coder</strong><br/>
     <i>"Works on my machine — if it breaks on yours, that's on you."</i>
   </p>
 
@@ -28,6 +28,8 @@
 
 - 👋 Hey! I'm **Mhart Khiss** (you can call me **Makizz**).
 - 🎓 **Information Technology** student majoring in *turning Stack Overflow tabs and 2 AM beats into deployable apps*.
+- 🌆 **Dusk & Twilight Devotee**: Obsessed with **dusk, twilight, and midnight aesthetics** — deep indigo night skies, neon violet glows, and late-night coding sessions when the world is quiet.
+- 🕹️ **Pixel Art Games Aficionado**: Passionate lover of **pixel art games & retro aesthetics** (crisp sprites, scanlines, nostalgic vibes, and building gaming utilities like [*TaskbarHero* / *DuskCore*](#-duskcore--taskbarhero-utility)).
 - 🕶️ **Yes, I actually code** — but let's be real: writing syntax without immaculate music, aesthetic dark mode, and pure vibes is strictly deprecated.
 - 📱 **Mobile Wizardry**: Wrangling **Flutter & Dart** until the layout stops overflowing by `2.4 pixels` on random Android devices.
 - 🌐 **Web Sorcery**: Crafting responsive frontends with **React, Vite & Tailwind CSS** that look way cleaner than my room.
