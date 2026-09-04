@@ -5,7 +5,7 @@
 
   <p align="center">
     🎧 <strong>Certified Vibe Coder</strong><br/>
-    <i>"Works on my machine — if it breaks on yours, that's on you."</i>
+    <i>"Works on my machine — if it breaks on yours, that's an unresolved <tspan class="hl-pink">skill issue</tspan> ☕"</i>
   </p>
 
   <!-- Quick Social Badges -->
