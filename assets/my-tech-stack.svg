@@ -52,6 +52,13 @@
       .hud-line {
         animation: hudLinePulse 2s ease-in-out infinite alternate;
       }
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cursor-blink {
+        animation: blinkCursor 0.65s infinite;
+      }
 
       /* Typography */
       .stark-brand {
@@ -135,6 +142,13 @@
       <stop offset="50%" stop-color="#0284c7" stop-opacity="0.3" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
+
+    <!-- Typing Animation ClipPath -->
+    <clipPath id="starkTypingClip">
+      <rect x="14" y="10" width="0" height="25">
+        <animate attributeName="width" values="0; 284; 284; 0" keyTimes="0; 0.42; 0.88; 1" dur="7s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
   </defs>
 
   <!-- Canvas Border and Background -->
@@ -155,7 +169,13 @@
   <!-- ==================== TOP HUD HEADER ==================== -->
   <g transform="translate(24, 18)">
     <rect x="0" y="0" width="832" height="40" rx="5" fill="#090d1c" stroke="#1e293b" stroke-width="1.2" />
-    <text x="14" y="25" class="stark-brand">VIBE CODING LIKE STARK <tspan fill="#f59e0b">// TECH STACK</tspan></text>
+    <g clip-path="url(#starkTypingClip)">
+      <text x="14" y="25" class="stark-brand">VIBE CODING LIKE STARK <tspan fill="#f59e0b">// TECH STACK</tspan></text>
+    </g>
+    <!-- Blinking Terminal Cursor -->
+    <rect x="14" y="14" width="7" height="13" fill="#00f0ff" class="cursor-blink">
+      <animate attributeName="x" values="14; 298; 298; 14" keyTimes="0; 0.42; 0.88; 1" dur="7s" repeatCount="indefinite" />
+    </rect>
     
     <!-- Status Pill Right -->
     <g transform="translate(615, 9)">
