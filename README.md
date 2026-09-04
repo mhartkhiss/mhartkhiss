@@ -74,14 +74,14 @@
 
 <div align="center">
   <a href="https://github.com/mhartkhiss/speakforge-capstone2" target="_blank">
-    <img src="./assets/speakforge-banner.svg?v=2" alt="SpeakForge - AI Multilingual Communication Engine Banner" width="100%" />
+    <img src="./assets/speakforge-banner.svg?v=4" alt="SpeakForge - AI Multilingual Communication Engine Banner" width="100%" />
   </a>
 </div>
 
 > **`VIBE CHECK`**  
 > *Why let language barriers ruin a conversation when AI can forge real-time understanding between Bisaya and the rest of the world?*
 
-- 📖 **`ABOUT`**: AI-powered multilingual communication platform engineered to bridge language barriers between local Bisaya communities, expatriates, tourists, and international students. Users speak or type in their native tongue on Android, and the system instantly transcribes with ML Kit, translates via multi-model AI routing (Gemini, Claude, and DeepSeek), and speaks aloud via neural text-to-speech. Built with a full-stack architecture featuring an Android client, Django REST API, React administration dashboard, and Firebase real-time state synchronization.
+- 📖 **`ABOUT`**: Developed as our college capstone project, SpeakForge is an AI-powered multilingual communication suite designed to bridge language barriers between local Bisaya-speaking communities, expatriates, tourists, and international students. Users speak or type in their native tongue on Android, and the system instantly transcribes with ML Kit, translates via multi-model AI routing (Gemini, Claude, and DeepSeek), and speaks aloud via neural text-to-speech. Features a full-stack architecture combining a native Android client, Django REST API backend, React administration dashboard, and Firebase Realtime Database for live conversation synchronization.
 - 🗡️ **`CLASS / TECH`**: `Android (Java)` &bull; `Django REST (Python)` &bull; `React.js` &bull; `Gemini / Claude / DeepSeek` &bull; `Firebase` &bull; `ML Kit`
 - 💻 **`PLATFORMS`**: `[ Android Mobile App ]` &bull; `[ Web Admin Dashboard ]` &bull; `[ Cloud API ]`
 - 🌐 **`PORTAL URL`**: [github.com/mhartkhiss/speakforge-capstone2](https://github.com/mhartkhiss/speakforge-capstone2)

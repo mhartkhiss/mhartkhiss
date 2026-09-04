@@ -1,34 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 250" width="100%" height="100%">
   <defs>
     <style>
-      @keyframes floatBlob {
-        0%, 100% { transform: translateY(0px) rotate(0deg); }
-        50% { transform: translateY(-8px) rotate(3deg); }
-      }
-      @keyframes floatChatCard {
-        0%, 100% { transform: translateY(0px) rotate(1.5deg); }
-        50% { transform: translateY(-5px) rotate(0.5deg); }
-      }
       @keyframes pulseGold {
-        0%, 100% { filter: drop-shadow(0 0 4px rgba(251, 168, 52, 0.4)); }
+        0%, 100% { filter: drop-shadow(0 0 3px rgba(251, 168, 52, 0.4)); }
         50% { filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.8)); }
-      }
-      @keyframes audioWave {
-        0%, 100% { width: 35px; }
-        50% { width: 125px; }
       }
       @keyframes blink {
         0%, 49% { opacity: 1; }
         50%, 100% { opacity: 0; }
       }
 
-      .float-blob {
-        animation: floatBlob 5s ease-in-out infinite;
-      }
-      .float-card {
-        animation: floatChatCard 3.5s ease-in-out infinite;
-        transform-origin: 640px 115px;
-      }
       .gold-glow {
         animation: pulseGold 3s infinite alternate;
       }
@@ -39,18 +20,18 @@
       .font-hero {
         font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Outfit', sans-serif;
         font-weight: 900;
-        font-size: 26px;
+        font-size: 24px;
         letter-spacing: 1px;
       }
       .font-subhead {
         font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
         font-weight: 800;
-        font-size: 15px;
-        letter-spacing: 0.5px;
+        font-size: 14.5px;
+        letter-spacing: 0.4px;
       }
       .font-body {
         font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-        font-size: 11px;
+        font-size: 10.5px;
         font-weight: 400;
         fill: #E2E8F0;
         letter-spacing: 0.2px;
@@ -58,12 +39,12 @@
       .font-pill {
         font-family: 'Courier New', monospace;
         font-weight: bold;
-        font-size: 9px;
-        letter-spacing: 0.8px;
+        font-size: 8.5px;
+        letter-spacing: 0.6px;
       }
       .font-chat-msg {
         font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-        font-size: 10px;
+        font-size: 9.5px;
         font-weight: 600;
         letter-spacing: 0.1px;
       }
@@ -78,72 +59,59 @@
 
     <!-- Signature Hero Blue-to-Sky Gradient from Landing Page -->
     <linearGradient id="landingHeroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.95" />
-      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.90" />
-      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.92" />
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.96" />
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.94" />
     </linearGradient>
 
-    <!-- Golden Accent Gradient: 'Boundaries' Text from Landing Page -->
+    <!-- Golden Accent Gradient -->
     <linearGradient id="goldTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFD700" />
       <stop offset="100%" stop-color="#FFA500" />
     </linearGradient>
 
-    <!-- Warm Amber Accent Gradient -->
-    <linearGradient id="amberPillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F59E0B" />
-      <stop offset="100%" stop-color="#D97706" />
-    </linearGradient>
-
     <!-- Drop Shadows -->
-    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#050B14" flood-opacity="0.5" />
-    </filter>
-
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <filter id="cardShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#050B14" flood-opacity="0.45" />
     </filter>
   </defs>
 
   <!-- ================= CANVAS TRANSPARENCY & ANGLED HERO CUT ================= -->
-  <!-- Outer canvas is transparent; the main silhouette uses the landing page's signature bottom-angled clip (100% 86% to 0 100%) -->
-  <path d="M 32 12 
-           L 788 12 
-           A 16 16 0 0 1 804 28 
-           L 804 198 
-           L 32 238 
-           A 16 16 0 0 1 16 222 
-           L 16 28 
-           A 16 16 0 0 1 32 12 Z" 
+  <!-- Outer canvas is transparent; dynamic angled silhouette -->
+  <path d="M 32 10 
+           L 788 10 
+           A 16 16 0 0 1 804 26 
+           L 804 200 
+           L 32 240 
+           A 16 16 0 0 1 16 224 
+           L 16 26 
+           A 16 16 0 0 1 32 10 Z" 
         fill="url(#landingHeroGrad)" 
         stroke="rgba(255, 255, 255, 0.28)" 
         stroke-width="1.8" 
         filter="url(#cardShadow)" />
 
-  <!-- Animated Floating Glass Morph Blobs from Landing Page -->
-  <g class="float-blob" opacity="0.18">
+  <!-- Subtle Floating Glass Blobs in Background -->
+  <g opacity="0.12">
     <circle cx="750" cy="50" r="65" fill="#FFFFFF" />
-    <path d="M 40 180 C 60 160 120 170 110 200 C 100 230 50 240 30 220 Z" fill="#FFFFFF" />
+    <circle cx="430" cy="180" r="45" fill="#FFFFFF" />
   </g>
 
-  <!-- ================= LEFT SECTION: HERO HEADLINES & BRANDING ================= -->
-  <g transform="translate(42, 28)">
-    <!-- Category Chip from Landing Page -->
+  <!-- ================= LEFT SECTION: HERO HEADLINES & STATS ================= -->
+  <!-- Strictly constrained within x=38 to x=465 so it never collides with the chat card on the right -->
+  <g transform="translate(38, 24)">
+    <!-- Capstone & Category Chip -->
     <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="225" height="22" rx="11" fill="rgba(255, 255, 255, 0.15)" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
-      <text x="112" y="14.5" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
-        🚀 BREAKING LANGUAGE BARRIERS
+      <rect x="0" y="0" width="265" height="22" rx="11" fill="rgba(255, 255, 255, 0.15)" stroke="rgba(255, 255, 255, 0.3)" stroke-width="1" />
+      <text x="132.5" y="14.5" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+        🎓 COLLEGE CAPSTONE • BISAYA AI TRANSLATOR
       </text>
     </g>
 
     <!-- Main Title & Logo Header -->
-    <g transform="translate(0, 48)">
+    <g transform="translate(0, 44)">
       <!-- Mini SpeakForge Logo Emblem -->
-      <g transform="translate(0, -18) scale(0.32)">
+      <g transform="translate(0, -18) scale(0.30)">
         <path d="M 12 50 C 12 28 30 10 52 10 L 68 10 C 62 16 62 26 68 32 L 38 32 C 28 32 24 38 24 46 L 24 50 Z" fill="#FFA500" />
         <path d="M 60 4 L 76 10 L 60 20 Z" fill="#FFD700" />
         <circle cx="72" cy="24" r="14" fill="#FFFFFF" stroke="#FFA500" stroke-width="2.5" />
@@ -155,112 +123,118 @@
         <text x="28" y="82" font-family="system-ui" font-weight="900" font-size="15" fill="#1E293B" text-anchor="middle">文</text>
       </g>
 
-      <text x="40" y="0" class="font-hero" fill="#FFFFFF">SPEAKFORGE</text>
+      <text x="36" y="0" class="font-hero" fill="#FFFFFF">SPEAKFORGE</text>
     </g>
 
     <!-- Landing Page Headline: Connect Without Boundaries -->
-    <g transform="translate(0, 72)">
+    <g transform="translate(0, 68)">
       <text x="0" y="0" class="font-subhead" fill="#FFFFFF">
         Connect Without <tspan fill="url(#goldTextGrad)" class="gold-glow">Boundaries</tspan>
       </text>
     </g>
 
     <!-- Subtitle & Value Proposition -->
-    <g transform="translate(0, 92)">
+    <g transform="translate(0, 88)">
       <text x="0" y="0" class="font-body">
-        Real-time voice &amp; text translation bridging <tspan font-weight="700" fill="#FFFFFF">English and Cebuano (Bisaya)</tspan>.
+        Real-time voice &amp; text translation bridging <tspan font-weight="700" fill="#FFFFFF">English &amp; Cebuano (Bisaya)</tspan>.
       </text>
-      <text x="0" y="16" font-family="system-ui, sans-serif" font-size="9.5" fill="#BAE6FD" opacity="0.9">
+      <text x="0" y="16" font-family="system-ui, sans-serif" font-size="9.5" fill="#BAE6FD" opacity="0.92">
         * Multi-model routing powered by Gemini, Claude, and DeepSeek AI.
       </text>
     </g>
 
     <!-- Real-World Stats Pills (Direct from Landing Page) -->
-    <g transform="translate(0, 130)">
+    <g transform="translate(0, 126)">
       <!-- Stat 1: 90% Accuracy -->
-      <rect x="0" y="0" width="112" height="22" rx="6" fill="rgba(255, 255, 255, 0.16)" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" />
-      <text x="56" y="14.5" class="font-pill" fill="#FFD700" text-anchor="middle">90% ACCURACY</text>
+      <rect x="0" y="0" width="105" height="22" rx="6" fill="rgba(255, 255, 255, 0.16)" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" />
+      <text x="52.5" y="14.5" class="font-pill" fill="#FFD700" text-anchor="middle">90% ACCURACY</text>
 
       <!-- Stat 2: <200ms Latency -->
-      <rect x="120" y="0" width="120" height="22" rx="6" fill="rgba(255, 255, 255, 0.16)" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" />
-      <text x="180" y="14.5" class="font-pill" fill="#38BDF8" text-anchor="middle">&lt;200ms LATENCY</text>
+      <rect x="113" y="0" width="112" height="22" rx="6" fill="rgba(255, 255, 255, 0.16)" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" />
+      <text x="169" y="14.5" class="font-pill" fill="#38BDF8" text-anchor="middle">&lt;200ms LATENCY</text>
 
       <!-- Stat 3: 24/7 Availability -->
-      <rect x="248" y="0" width="96" height="22" rx="6" fill="rgba(255, 255, 255, 0.16)" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" />
-      <text x="296" y="14.5" class="font-pill" fill="#A7F3D0" text-anchor="middle">24/7 AVAIL</text>
+      <rect x="233" y="0" width="94" height="22" rx="6" fill="rgba(255, 255, 255, 0.16)" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" />
+      <text x="280" y="14.5" class="font-pill" fill="#A7F3D0" text-anchor="middle">24/7 AVAIL</text>
+
+      <!-- Stat 4: Capstone Badge -->
+      <rect x="335" y="0" width="92" height="22" rx="6" fill="rgba(245, 158, 11, 0.22)" stroke="rgba(245, 158, 11, 0.5)" stroke-width="1" />
+      <text x="381" y="14.5" class="font-pill" fill="#FDE047" text-anchor="middle">CAPSTONE '24</text>
     </g>
   </g>
 
   <!-- ================= RIGHT SECTION: FLOATING MOCK CHAT INTERFACE ================= -->
-  <!-- Inspired directly by lines 393-430 in LandingPage.jsx -->
-  <g class="float-card" transform="translate(470, 20)">
-    <!-- Tilted Background Layer (-6deg tilt) -->
-    <rect x="-10" y="0" width="295" height="152" rx="20" fill="rgba(255, 255, 255, 0.12)" transform="rotate(-4)" />
+  <!-- Positioned cleanly on the right side at x=484, y=22 (Fully in-bounds, no text overlap) -->
+  <g transform="translate(484, 22)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="3.5s" repeatCount="indefinite" />
+      <!-- Shadow Underlay -->
+      <rect x="-3" y="3" width="296" height="152" rx="18" fill="rgba(10, 20, 35, 0.25)" />
 
-    <!-- Main Front Card (White glass with blur) -->
-    <g filter="url(#cardShadow)">
-      <rect x="0" y="0" width="295" height="152" rx="18" fill="rgba(255, 255, 255, 0.96)" stroke="rgba(255, 255, 255, 0.8)" stroke-width="1" />
-      
-      <!-- Chat Bubble 1: User (Bisaya) -->
-      <g transform="translate(14, 18)">
-        <!-- Avatar U -->
-        <circle cx="12" cy="12" r="11" fill="#2563EB" />
-        <text x="12" y="16" font-family="system-ui" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">U</text>
-        <!-- Speech Bubble -->
-        <rect x="30" y="0" width="180" height="24" rx="8" fill="#F1F5F9" />
-        <text x="38" y="15.5" class="font-chat-msg" fill="#1E293B">Maayong Buntag! Kumusta ka?</text>
-      </g>
-
-      <!-- Chat Bubble 2: SpeakForge AI Translation (English) -->
-      <g transform="translate(14, 50)">
-        <!-- Avatar A (Accent Gold) -->
-        <circle cx="266" cy="12" r="11" fill="#F59E0B" />
-        <text x="266" y="16" font-family="system-ui" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">A</text>
-        <!-- Speech Bubble (Blue) -->
-        <rect x="68" y="0" width="186" height="24" rx="8" fill="#2563EB" />
-        <text x="76" y="15.5" class="font-chat-msg" fill="#FFFFFF">Good morning! How are you?</text>
-      </g>
-
-      <!-- Chat Bubble 3: User Followup (Bisaya) -->
-      <g transform="translate(14, 82)">
-        <!-- Avatar U -->
-        <circle cx="12" cy="12" r="11" fill="#2563EB" />
-        <text x="12" y="16" font-family="system-ui" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">U</text>
-        <!-- Speech Bubble -->
-        <rect x="30" y="0" width="168" height="24" rx="8" fill="#F1F5F9" />
-        <text x="38" y="15.5" class="font-chat-msg" fill="#1E293B">Gutom na ko, mangaon ta.</text>
-      </g>
-
-      <!-- Voice Player Progress Bar (From Landing Page Lines 423-429) -->
-      <g transform="translate(14, 116)">
-        <rect x="0" y="0" width="268" height="24" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
+      <!-- Main Chat Paper Card (High-clarity white glass surface) -->
+      <g filter="url(#cardShadow)">
+        <rect x="0" y="0" width="296" height="152" rx="16" fill="rgba(255, 255, 255, 0.98)" stroke="rgba(255, 255, 255, 0.9)" stroke-width="1" />
         
-        <!-- Mic Wave Icon -->
-        <path d="M 12 12 C 12 9 16 9 16 12 V 15 C 16 18 12 18 12 15 Z" fill="#64748B" />
-        <path d="M 9 13 C 9 17 19 17 19 13 M 14 17 V 20 M 11 20 H 17" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" fill="none" />
-        
-        <!-- Waveform Progress Track -->
-        <rect x="28" y="9" width="192" height="6" rx="3" fill="#E2E8F0" />
-        <rect x="28" y="9" width="115" height="6" rx="3" fill="#F59E0B">
-          <animate attributeName="width" values="35;170;35" dur="3s" repeatCount="indefinite" />
-        </rect>
+        <!-- Chat Bubble 1: User (Bisaya) -->
+        <g transform="translate(12, 14)">
+          <!-- Avatar U -->
+          <circle cx="12" cy="12" r="11" fill="#2563EB" />
+          <text x="12" y="16" font-family="system-ui" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">U</text>
+          <!-- Speech Bubble -->
+          <rect x="30" y="0" width="180" height="24" rx="8" fill="#F1F5F9" />
+          <text x="38" y="15.5" class="font-chat-msg" fill="#1E293B">Maayong Buntag! Kumusta ka?</text>
+        </g>
 
-        <!-- Time Stamp -->
-        <text x="252" y="16" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#64748B" text-anchor="end">0:05</text>
+        <!-- Chat Bubble 2: SpeakForge AI Translation (English) -->
+        <g transform="translate(12, 45)">
+          <!-- Avatar A (Accent Gold) -->
+          <circle cx="260" cy="12" r="11" fill="#F59E0B" />
+          <text x="260" y="16" font-family="system-ui" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">A</text>
+          <!-- Speech Bubble (Blue) -->
+          <rect x="68" y="0" width="180" height="24" rx="8" fill="#2563EB" />
+          <text x="76" y="15.5" class="font-chat-msg" fill="#FFFFFF">Good morning! How are you?</text>
+        </g>
+
+        <!-- Chat Bubble 3: User Followup (Bisaya) -->
+        <g transform="translate(12, 76)">
+          <!-- Avatar U -->
+          <circle cx="12" cy="12" r="11" fill="#2563EB" />
+          <text x="12" y="16" font-family="system-ui" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">U</text>
+          <!-- Speech Bubble -->
+          <rect x="30" y="0" width="170" height="24" rx="8" fill="#F1F5F9" />
+          <text x="38" y="15.5" class="font-chat-msg" fill="#1E293B">Gutom na ko, mangaon ta.</text>
+        </g>
+
+        <!-- Voice Player Progress Bar (From Landing Page Lines 423-429) -->
+        <g transform="translate(12, 110)">
+          <rect x="0" y="0" width="272" height="25" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1" />
+          
+          <!-- Mic Wave Icon -->
+          <path d="M 14 11 C 14 8.5 18 8.5 18 11 V 14 C 18 16.5 14 16.5 14 14 Z" fill="#64748B" />
+          <path d="M 11 12 C 11 16 21 16 21 12 M 16 16 V 19 M 13 19 H 19" stroke="#64748B" stroke-width="1.2" stroke-linecap="round" fill="none" />
+          
+          <!-- Waveform Progress Track -->
+          <rect x="30" y="9.5" width="190" height="6" rx="3" fill="#E2E8F0" />
+          <rect x="30" y="9.5" width="115" height="6" rx="3" fill="#F59E0B">
+            <animate attributeName="width" values="30;175;30" dur="3s" repeatCount="indefinite" />
+          </rect>
+
+          <!-- Time Stamp -->
+          <text x="256" y="16.5" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#64748B" text-anchor="end">0:05</text>
+        </g>
       </g>
     </g>
   </g>
 
   <!-- ================= BOTTOM ANGLED CTA BAR ================= -->
-  <!-- Positioned along the dynamic angled cut of the landing page -->
-  <g transform="translate(42, 204)">
+  <!-- Positioned cleanly above the bottom border cut -->
+  <g transform="translate(38, 204)">
     <!-- Pill Container -->
-    <rect x="0" y="0" width="736" height="25" rx="12.5" fill="rgba(15, 23, 42, 0.7)" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1.2" />
+    <rect x="0" y="0" width="744" height="26" rx="13" fill="rgba(15, 23, 42, 0.78)" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1.2" />
 
     <!-- Center Interactive Text -->
-    <text x="368" y="16.5" class="font-cta" text-anchor="middle">
-      &gt;&gt; GET APP &amp; VIEW SOURCE: github.com/mhartkhiss/speakforge-capstone2 &lt;&lt;
+    <text x="372" y="17" class="font-cta" text-anchor="middle">
+      &gt;&gt; GET APP &amp; VIEW SOURCE: github.com/mhartkhiss/speakforge-capstone2 &lt;&lt; <tspan fill="#FFD700" class="cursor-blink">█</tspan>
     </text>
-    <rect x="682" y="7.5" width="6" height="11" fill="#FFD700" class="cursor-blink" />
   </g>
 </svg>
