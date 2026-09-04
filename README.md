@@ -19,10 +19,10 @@
 
 ---
 
-### 🦾 Tech Stack Interface
+### 🦾 My Tech Stack
 
 <div align="center">
-  <img src="./assets/ironman-tech-stack.svg?v=7" alt="Makizz Iron Man Tech Stack HUD" width="100%" />
+  <img src="./assets/ironman-tech-stack.svg?v=10" alt="Makizz Iron Man Tech Stack HUD" width="100%" />
 </div>
 
 ---
