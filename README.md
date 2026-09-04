@@ -29,7 +29,7 @@
 
 <h3 align="center">📌 Featured Creations</h3>
 
-#### 🕹️ DuskCore — TaskbarHero Utility
+#### <img src="./assets/duskcore-logo.svg" width="24" height="24" valign="middle" /> DuskCore — TaskbarHero Utility
 
 <div align="center">
   <a href="https://duskcore.makizz.studio" target="_blank">
@@ -51,7 +51,7 @@
 
 <br/>
 
-#### 🎤 MKZ Karaoke — Real-Time Party Songbook & Player
+#### <img src="./assets/mkz-karaoke-icon.svg" width="24" height="24" valign="middle" /> MKZ Karaoke — Real-Time Party Songbook & Player
 
 <div align="center">
   <a href="https://mkzkaraoke.netlify.app" target="_blank">
