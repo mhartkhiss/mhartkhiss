@@ -2,7 +2,7 @@
 
   <!-- Animated Header Typing Banner -->
   <a href="https://github.com/mhartkhiss">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&height=50&lines=Hi+there,+I'm+Mhart+Khiss!+%F0%9F%91%8B;Certified+Vibe+Coder+%F0%9F%8E%A7;Yes+I+code,+but+vibing+while+coding+is+the+meta+%F0%9F%9A%80;Works+on+my+machine+--+yours+is+on+you+%C2%AF%5C_(%E3%83%84)_%2F%C2%AF" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1000&color=38BDF8&center=true&vCenter=true&width=820&height=50&lines=Hi+there,+I'm+Mhart+Khiss+(you+can+call+me+Makizz)!+%F0%9F%91%8B;Certified+Vibe+Coder+%F0%9F%8E%A7;Yes+I+code,+but+vibing+while+coding+is+the+meta+%F0%9F%9A%80;Works+on+my+machine+--+if+it+breaks+on+yours,+that's+on+you" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -26,6 +26,7 @@
 
 ### 🎧 The Philosophy: Vibe Coding is the Meta
 
+- 👋 Hey! I'm **Mhart Khiss** (you can call me **Makizz**).
 - 🎓 **Information Technology** student majoring in *turning Stack Overflow tabs and 2 AM beats into deployable apps*.
 - 🕶️ **Yes, I actually code** — but let's be real: writing syntax without immaculate music, aesthetic dark mode, and pure vibes is strictly deprecated.
 - 📱 **Mobile Wizardry**: Wrangling **Flutter & Dart** until the layout stops overflowing by `2.4 pixels` on random Android devices.
