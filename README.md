@@ -2,7 +2,7 @@
 
   <!-- Animated Header Typing Banner -->
   <a href="https://github.com/mhartkhiss">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Hi+there,+I'm+Mhart+Khiss!+%F0%9F%91%8B;Professional+Vibe+Coder%E2%84%A2+%F0%9F%8E%A7;Yes+I+code,+but+vibing+while+coding+is+the+meta+%F0%9F%9A%80;Works+on+my+machine%E2%84%A2+--+yours+is+on+you+%C2%AF%5C_(%E3%83%84)_%2F%C2%AF;CIT+-+University+%F0%9F%8F%AB+%7C+Cebu+City,+PH+%F0%9F%87%B5%F0%9F%87%AD" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Hi+there,+I'm+Mhart+Khiss!+%F0%9F%91%8B;Professional+Vibe+Coder%E2%84%A2+%F0%9F%8E%A7;Yes+I+code,+but+vibing+while+coding+is+the+meta+%F0%9F%9A%80;Works+on+my+machine%E2%84%A2+--+yours+is+on+you+%C2%AF%5C_(%E3%83%84)_%2F%C2%AF;Based+in+Cebu+City,+PH+%F0%9F%87%B5%F0%9F%87%AD" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -12,9 +12,6 @@
 
   <!-- Quick Social Badges -->
   <p align="center">
-    <a href="mailto:mhartkhiss.degollacion@cit.edu">
-      <img src="https://img.shields.io/badge/Email-mhartkhiss.degollacion%40cit.edu-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-    </a>
     <a href="https://github.com/mhartkhiss">
       <img src="https://img.shields.io/badge/GitHub-mhartkhiss-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
     </a>
@@ -29,7 +26,7 @@
 
 ### 🎧 The Philosophy: Vibe Coding is the Meta
 
-- 🎓 **Information Technology** student at **Cebu Institute of Technology – University (CIT-U)**, currently majoring in *turning Stack Overflow tabs and 2 AM beats into deployable apps*.
+- 🎓 **Information Technology** student majoring in *turning Stack Overflow tabs and 2 AM beats into deployable apps*.
 - 🕶️ **Yes, I actually code** — but let's be real: writing syntax without immaculate music, aesthetic dark mode, and pure vibes is strictly deprecated.
 - 📱 **Mobile Wizardry**: Wrangling **Flutter & Dart** until the layout stops overflowing by `2.4 pixels` on random Android devices.
 - 🌐 **Web Sorcery**: Crafting responsive frontends with **React, Vite & Tailwind CSS** that look way cleaner than my room.
